@@ -1,0 +1,1119 @@
+2017-09-18 10:54:53,183 WARN 27274 [-/127.0.0.1/-/2ms POST /web/getNewsList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 10:54:53,185 WARN 27274 [-/127.0.0.1/-/5ms POST /web/getNewsList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 27274
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 10:55:37,539 WARN 27274 [-/127.0.0.1/-/0ms POST /web/getNewsList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 10:55:37,540 WARN 27274 [-/127.0.0.1/-/1ms POST /web/getNewsList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 27274
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 10:59:44,438 WARN 27418 [-/127.0.0.1/-/11ms POST /web/getNewsList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 10:59:44,440 WARN 27418 [-/127.0.0.1/-/14ms POST /web/getNewsList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 27418
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:53:04,295 WARN 27839 [-/127.0.0.1/-/13ms POST /web/getNewsList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:53:04,300 WARN 27839 [-/127.0.0.1/-/17ms POST /web/getNewsList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 27839
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:53:20,817 WARN 27839 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:53:20,818 WARN 27839 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 27839
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:53:46,336 WARN 27839 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:53:46,337 WARN 27839 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 27839
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:54:06,307 WARN 28679 [-/127.0.0.1/-/13ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:54:06,310 WARN 28679 [-/127.0.0.1/-/15ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:54:36,375 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:54:36,377 WARN 28679 [-/127.0.0.1/-/3ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:54:37,347 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:54:37,348 WARN 28679 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:54:37,524 WARN 28679 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:54:37,525 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:54:43,094 WARN 28679 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:54:43,096 WARN 28679 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:56:23,740 WARN 28679 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:56:23,741 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:57:11,195 WARN 28679 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:57:11,196 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:57:15,702 WARN 28679 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:57:15,704 WARN 28679 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:58:03,771 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:58:03,772 WARN 28679 [-/127.0.0.1/-/3ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:59:18,610 WARN 28679 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 11:59:18,611 WARN 28679 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28679
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:00:23,108 WARN 28777 [-/127.0.0.1/-/6ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 12:00:23,111 WARN 28777 [-/127.0.0.1/-/9ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:00:48,882 WARN 28777 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 12:00:48,884 WARN 28777 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:00:54,062 WARN 28777 [-/127.0.0.1/-/0ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 12:00:54,062 WARN 28777 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:02:06,723 WARN 28777 [-/127.0.0.1/-/18ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 12:02:06,725 WARN 28777 [-/127.0.0.1/-/19ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:02:15,848 WARN 28777 [-/127.0.0.1/-/2ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 12:02:15,852 WARN 28777 [-/127.0.0.1/-/6ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:03:20,332 WARN 28777 [-/127.0.0.1/-/1ms POST /web/getNewsAll] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 12:03:20,333 WARN 28777 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:07:59,973 WARN 28777 [-/127.0.0.1/-/2ms POST /web/getNewsAll] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'a=1'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:08:35,382 WARN 28777 [-/127.0.0.1/-/0ms POST /web/getNewsAll] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'a=1'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:08:50,677 WARN 28777 [-/127.0.0.1/-/1ms POST /web/getNewsAll] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'a=1'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 12:11:23,825 WARN 28777 [-/127.0.0.1/-/0ms POST /web/getNewsAll] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'a=1'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:30:58,585 WARN 28777 [-/127.0.0.1/-/0ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:30:58,586 WARN 28777 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:31:11,828 WARN 28777 [-/127.0.0.1/-/1ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:31:11,828 WARN 28777 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 28777
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:38:45,861 WARN 30981 [-/127.0.0.1/-/12ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:38:45,869 WARN 30981 [-/127.0.0.1/-/21ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:39:04,741 WARN 30981 [-/127.0.0.1/-/2ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:39:04,743 WARN 30981 [-/127.0.0.1/-/5ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:39:15,235 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:39:15,236 WARN 30981 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:39:15,285 WARN 30981 [-/127.0.0.1/-/0ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:39:15,286 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:39:18,818 WARN 30981 [-/127.0.0.1/-/0ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:39:18,820 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:39:18,880 WARN 30981 [-/127.0.0.1/-/0ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:39:18,880 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:39:26,699 WARN 30981 [-/127.0.0.1/-/2ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:39:26,700 WARN 30981 [-/127.0.0.1/-/3ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:40:07,519 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:40:07,521 WARN 30981 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:40:07,605 WARN 30981 [-/127.0.0.1/-/4ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:40:07,608 WARN 30981 [-/127.0.0.1/-/6ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:40:13,408 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-18 14:40:13,409 WARN 30981 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:41:50,048 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:41:50,930 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:42:01,904 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:42:29,875 WARN 30981 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:42:37,932 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:43:40,590 WARN 30981 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 30981
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:44:47,726 WARN 31107 [-/127.0.0.1/-/40ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 31107
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:53:07,613 WARN 31107 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31107
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:53:49,762 WARN 31107 [-/127.0.0.1/-/0ms POST /web/getNewsContent] nodejs.SyntaxError: Unexpected token = in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:62:17)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: '{\n\t"id"="59b9fa71a89aea6ff807518f"\n}'
+pid: 31107
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:54:43,356 WARN 31268 [-/127.0.0.1/-/29ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31268
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:54:49,223 WARN 31268 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31268
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:56:16,496 WARN 31315 [-/127.0.0.1/-/28ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31315
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:59:31,320 WARN 31393 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31393
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:00:11,154 WARN 31410 [-/127.0.0.1/-/32ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31410
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:10:59,814 WARN 31609 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31609
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:11:17,273 WARN 31609 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31609
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:13:31,472 WARN 31670 [-/127.0.0.1/-/31ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31670
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:13:57,935 WARN 31670 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31670
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:14:01,717 WARN 31670 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31670
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:14:19,715 WARN 31670 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31670
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:14:21,999 WARN 31670 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31670
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:14:26,215 WARN 31670 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31670
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:15:36,094 WARN 31719 [-/127.0.0.1/-/29ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31719
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:16:33,764 WARN 31739 [-/127.0.0.1/-/25ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=%2259b9fa71a89aea6ff807518f%22'
+pid: 31739
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:16:58,002 WARN 31739 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31739
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:16:58,902 WARN 31739 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fa71a89aea6ff807518f'
+pid: 31739
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:32:51,022 WARN 31864 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 31864
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:37:07,578 WARN 31864 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 31864
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:37:13,486 WARN 31864 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 31864
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:39:58,451 WARN 31864 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 31864
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:41:12,477 WARN 32217 [-/127.0.0.1/-/33ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 32217
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:44:24,229 WARN 32217 [-/127.0.0.1/-/1ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 32217
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:44:26,871 WARN 32217 [-/127.0.0.1/-/0ms POST /web/getNewsContent] nodejs.Error: invalid JSON, only supports object and array
+    at parse (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:60:13)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co-body/lib/json.js:45:22
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+status: 400
+body: 'id=59b9fac9a89aea6ff8075190'
+pid: 32217
+hostname: appledeMacBook-Pro-2.local
+

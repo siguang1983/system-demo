@@ -1,0 +1,22 @@
+2017-09-13 14:06:44,378 WARN 85019 [-/127.0.0.1/-/24ms POST /web/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-09-13 14:06:44,385 WARN 85019 [-/127.0.0.1/-/29ms POST /web/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/app/extend/context.js:148:17)
+    at Object.csrf (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/apple/siguang.liu/Example/food/food_node/node_modules/koa-compose/index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+message: 'invalid csrf token'
+pid: 85019
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:38:35,638 INFO 97879 [-/127.0.0.1/-/26ms POST /web/removeNews] ======undefined====
+2017-09-14 14:38:41,814 INFO 97879 [-/127.0.0.1/-/2ms POST /web/removeNews] ======undefined====
+2017-09-14 14:39:00,467 INFO 97889 [-/127.0.0.1/-/27ms POST /web/removeNews] ======undefined====
+2017-09-14 14:39:09,123 INFO 97889 [-/127.0.0.1/-/1ms POST /web/removeNews] ======undefined====
+2017-09-14 14:39:47,814 INFO 97910 [-/127.0.0.1/-/24ms POST /web/removeNews] ======undefined====
+2017-09-14 14:39:58,013 INFO 97921 [-/127.0.0.1/-/29ms POST /web/removeNews] ======undefined====

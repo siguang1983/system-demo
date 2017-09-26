@@ -1,0 +1,547 @@
+2017-09-18 09:50:07,651 ERROR 9411 nodejs.ClusterClientNoResponseError: client no response in 173702590ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 9411
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:11:24,531 ERROR 27641 [-/127.0.0.1/-/25ms POST /web/getNewsContent] nodejs.TypeError: app.validator.vlidate is not a function
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:40:46)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 27641
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:12:07,998 ERROR 27651 [-/127.0.0.1/-/34ms POST /web/getNewsContent] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: String
+    at Parameter.validate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/parameter/index.js:76:15)
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:40:46)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 27651
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:13:13,450 ERROR 27651 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: String
+    at Parameter.validate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/parameter/index.js:76:15)
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:40:46)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 27651
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:13:34,441 ERROR 27680 [-/127.0.0.1/-/31ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:50:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 27680
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:14:15,831 ERROR 27706 [-/127.0.0.1/-/24ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:50:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 27706
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:14:51,050 ERROR 27719 [-/127.0.0.1/-/28ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:50:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 27719
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:15:08,295 ERROR 27728 [-/127.0.0.1/-/22ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:50:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 27728
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:19:32,222 ERROR 27802 [-/127.0.0.1/-/53ms POST /web/getNewsContent] nodejs.ReferenceError: printLog is not defined
+    at NewsService.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/service/news/news.js:31:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 27802
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 11:19:45,649 ERROR 27802 [-/127.0.0.1/-/4ms POST /web/getNewsContent] nodejs.ReferenceError: printLog is not defined
+    at NewsService.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/service/news/news.js:31:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 27802
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:58:36,770 ERROR 31364 [-/127.0.0.1/-/32ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'body' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:39:61)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 31364
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 14:58:57,703 ERROR 31364 [-/127.0.0.1/-/3ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'body' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:39:61)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 31364
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:07:17,757 ERROR 31532 [-/127.0.0.1/-/40ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'body' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:42:61)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 31532
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 15:07:26,499 ERROR 31532 [-/127.0.0.1/-/2ms POST /web/getNewsContent] nodejs.TypeError: Cannot read property 'body' of undefined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:42:61)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 31532
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 16:04:12,579 ERROR 32534 [-/127.0.0.1/-/55ms POST /web/addNews] nodejs.TypeError: app.model.news is not a constructor
+    at NewsService.addNews (/Users/apple/siguang.liu/Example/food/food_node/app/service/news/news.js:43:23)
+    at NewsController.addNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:75:52)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 32534
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 18:21:18,965 ERROR 34818 [-/127.0.0.1/-/10ms POST /web/getNewsContent] nodejs.ReferenceError: paramError is not defined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:44:30)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 34818
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:04:52,357 ERROR 35394 [-/127.0.0.1/-/55ms GET /web/getNewsContent?id=59bf7fb93f55167fb6cdd75e] nodejs.Template render error: (/Users/apple/siguang.liu/Example/food/food_node/app/view/news/newsContent.tpl) [Line 5, Column 33]
+  unknown block tag: newsTitle
+  unknown block tag: newsTitle
+    at Object.exports.prettifyError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:34:15)
+    at new_cls.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:472:27)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:243:17)
+    at NunjucksEnvironment.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:305:14)
+    at Promise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view/lib/context_view.js:75:23)
+    at options.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+name: 'Template render error'
+pid: 35394
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:05:34,190 ERROR 35394 [-/127.0.0.1/-/17ms GET /web/getNewsContent?id=59bf7fb93f55167fb6cdd75e] nodejs.Template render error: (/Users/apple/siguang.liu/Example/food/food_node/app/view/news/newsContent.tpl)
+  Error: template not found: /Users/apple/siguang.liu/Example/food/food_node/app/view/layout/layout.tpl
+  Error: template not found: /Users/apple/siguang.liu/Example/food/food_node/app/view/layout/layout.tpl
+    at Object.exports.prettifyError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:489:31
+    at eval (eval at _compile (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:9:11)
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:213:25)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:8:5)
+    at new_cls.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+name: 'Template render error'
+pid: 35394
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:06:24,969 ERROR 35394 [-/127.0.0.1/-/11ms GET /web/getNewsContent?id=59bf7fb93f55167fb6cdd75e] nodejs.Template render error: (/Users/apple/siguang.liu/Example/food/food_node/app/view/news/newsContent.tpl) [Line 5, Column 33]
+  unknown block tag: newsTitle
+  unknown block tag: newsTitle
+    at Object.exports.prettifyError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:34:15)
+    at new_cls.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:472:27)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:243:17)
+    at NunjucksEnvironment.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:305:14)
+    at Promise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view/lib/context_view.js:75:23)
+    at options.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+name: 'Template render error'
+pid: 35394
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:08:37,618 ERROR 35509 [-/127.0.0.1/-/11ms GET /web/getNewsContent?id=59bf7fb93f55167fb6cdd75e] nodejs.Template render error: (/Users/apple/siguang.liu/Example/food/food_node/app/view/news/newsContent.tpl) [Line 5, Column 33]
+  unknown block tag: newsTitle
+  unknown block tag: newsTitle
+    at Object.exports.prettifyError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:34:15)
+    at new_cls.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:472:27)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:243:17)
+    at NunjucksEnvironment.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:305:14)
+    at Promise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view/lib/context_view.js:75:23)
+    at options.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+name: 'Template render error'
+pid: 35509
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:09:48,845 ERROR 35509 [-/127.0.0.1/-/13ms GET /web/getNewsContent?id=59bf7fb93f55167fb6cdd75e] nodejs.Template render error: (/Users/apple/siguang.liu/Example/food/food_node/app/view/news/newsContent.tpl) [Line 5, Column 32]
+  unexpected token: %
+  unexpected token: %
+    at Object.exports.prettifyError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:34:15)
+    at new_cls.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:472:27)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:243:17)
+    at NunjucksEnvironment.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:305:14)
+    at Promise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view/lib/context_view.js:75:23)
+    at options.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+name: 'Template render error'
+pid: 35509
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:10:04,517 ERROR 35509 [-/127.0.0.1/-/3ms GET /web/getNewsContent?id=59bf7fb93f55167fb6cdd75e] nodejs.Template render error: (/Users/apple/siguang.liu/Example/food/food_node/app/view/news/newsContent.tpl) [Line 5, Column 32]
+  unexpected token: %
+  unexpected token: %
+    at Object.exports.prettifyError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:34:15)
+    at new_cls.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:472:27)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/lib.js:214:5)
+    at NunjucksEnvironment.getTemplate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:243:17)
+    at NunjucksEnvironment.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/nunjucks/src/environment.js:305:14)
+    at Promise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:13:25)
+    at Promise (<anonymous>)
+    at NunjucksView.render (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view-nunjucks/lib/view.js:12:12)
+    at ContextView.[contextView#render] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-view/lib/context_view.js:75:23)
+    at options.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+name: 'Template render error'
+pid: 35509
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 19:16:16,306 ERROR 35620 [-/127.0.0.1/-/8ms POST /web/getNewsContent] nodejs.ReferenceError: paramError is not defined
+    at NewsController.getNewsContent (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:44:30)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 35620
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 20:06:40,026 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 180297ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 20:14:08,396 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 448363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 21:55:29,475 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 6061069ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 22:13:18,011 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 1068534ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 22:14:39,609 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 61570ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 22:38:01,212 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 1381595ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-18 23:16:27,495 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 2286272ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-19 03:19:00,920 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 10292556ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-19 08:43:02,233 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 19441307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-19 09:48:21,918 ERROR 33497 nodejs.ClusterClientNoResponseError: client no response in 3919684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 33497
+hostname: appledeMacBook-Pro-2.local
+

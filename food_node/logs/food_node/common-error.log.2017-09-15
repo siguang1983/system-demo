@@ -1,0 +1,850 @@
+2017-09-13 15:00:57,440 ERROR 86065 [-/127.0.0.1/-/42ms POST /web/login] nodejs.TypeError: Cannot read property 'validate' of undefined
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:12:46)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 86065
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:03:13,563 ERROR 86127 [-/127.0.0.1/-/53ms POST /web/login] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:12:79)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 86127
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:04:23,145 ERROR 86150 [-/127.0.0.1/-/49ms POST /web/login] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: String
+    at Parameter.validate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/parameter/index.js:76:15)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:14:47)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86150
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:04:54,255 ERROR 86166 [-/127.0.0.1/-/28ms POST /web/login] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:18:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86166
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:05:54,673 ERROR 86166 [-/127.0.0.1/-/3ms POST /web/login] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:18:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86166
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:06:17,089 ERROR 86166 [-/127.0.0.1/-/2ms POST /web/login] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:18:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86166
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:06:24,200 ERROR 86166 [-/127.0.0.1/-/1ms POST /web/login] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:18:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86166
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:08:26,053 ERROR 86258 [-/127.0.0.1/-/37ms POST /web/login] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:19:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86258
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:08:58,801 ERROR 86269 [-/127.0.0.1/-/24ms POST /web/login] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:19:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86269
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:13:26,408 ERROR 86357 [-/127.0.0.1/-/32ms POST /web/login] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:19:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:25:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86357
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:14:01,716 ERROR 86373 [-/127.0.0.1/-/30ms POST /web/login] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:20:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:23:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86373
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:17:48,944 ERROR 86471 [-/127.0.0.1/-/31ms POST /web/login] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:20:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:23:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86471
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:18:07,975 ERROR 86483 [-/127.0.0.1/-/26ms POST /web/login] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:20:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:23:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86483
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:18:33,253 ERROR 86500 [-/127.0.0.1/-/22ms POST /web/login] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:20:45)
+    at UserController.login (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:23:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 86500
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 15:21:18,174 ERROR 86566 [-/127.0.0.1/-/42ms POST /web/login] nodejs.ReferenceError: ctx is not defined
+    at UserService.login (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:25:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 86566
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:28:28,304 ERROR 91261 [-/127.0.0.1/-/50ms POST /web/createRole] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:45:44)
+    at UserController.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:45:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 91261
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:28:53,660 ERROR 91269 [-/127.0.0.1/-/26ms POST /web/createRole] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserService.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:44:44)
+    at UserController.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:45:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 91269
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:33:04,833 ERROR 91347 [-/127.0.0.1/-/56ms POST /web/createRole] nodejs.ReferenceError: ctx is not defined
+    at UserService.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:51:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 91347
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:33:23,720 ERROR 91357 [-/127.0.0.1/-/52ms POST /web/createRole] nodejs.MongoError: E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }
+    at Function.MongoError.create (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:139:22)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 91357
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:33:49,745 ERROR 91357 [-/127.0.0.1/-/16ms POST /web/createRole] nodejs.MongoError: E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }
+    at Function.MongoError.create (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:139:22)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 91357
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:37:40,350 ERROR 91423 [-/127.0.0.1/-/26ms POST /web/createRole] nodejs.TypeError: this.Query is not a constructor
+    at new findOne (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/model.js:1397:12)
+    at UserService.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/login.js:46:36)
+    at UserController.createRole (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/login.js:45:53)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+
+pid: 91423
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:37:59,486 ERROR 91436 [-/127.0.0.1/-/77ms POST /web/createRole] nodejs.MongoError: E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }
+    at Function.MongoError.create (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:139:22)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 91436
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 18:41:36,162 ERROR 91453 [-/127.0.0.1/-/143ms POST /web/createRole] nodejs.MongoError: E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }
+    at Function.MongoError.create (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:139:22)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/collection.js:669:23
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:465:9
+    at handleCallback (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/utils.js:120:56)
+    at resultHandler (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb/lib/bulk/unordered.js:413:5)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/mongodb-core/lib/connection/pool.js:469:18
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+name: 'MongoError'
+message: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+driver: true
+code: 11000
+index: 0
+errmsg: 'E11000 duplicate key error collection: food_node_database.user index: username_1 dup key: { : "lulu" }'
+getOperation: [Function]
+toJSON: [Function]
+toString: [Function]
+pid: 91453
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 19:20:57,807 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 97647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 19:38:49,332 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 1051513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 19:40:09,950 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 60613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 19:41:52,033 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 82072ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-13 20:09:10,930 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 1618888ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 01:33:11,892 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 19420948ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 06:57:13,656 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 19441762ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 07:20:32,598 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 1398940ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 09:56:32,170 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 9359542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 11:16:34,447 ERROR 94083 [-/127.0.0.1/-/23ms POST /web/getNewsList] nodejs.TypeError: ctx.service.news.getNewsList is not a function
+    at NewsController.getNewsList (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:30:47)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 94083
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 11:19:02,758 ERROR 94083 [-/127.0.0.1/-/7ms POST /web/addNews] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: String
+    at Parameter.validate (/Users/apple/siguang.liu/Example/food/food_node/node_modules/parameter/index.js:76:15)
+    at NewsController.addNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:42:46)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 94083
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 11:20:18,829 ERROR 94161 [-/127.0.0.1/-/29ms POST /web/addNews] nodejs.ReferenceError: paramErorr is not defined
+    at NewsController.addNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:43:13)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 94161
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 11:20:37,230 ERROR 94185 [-/127.0.0.1/-/22ms POST /web/addNews] nodejs.TypeError: ctx.service.news.addNews is not a function
+    at NewsController.addNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:52:47)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 94185
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:35:42,859 ERROR 97794 [-/127.0.0.1/-/29ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:93:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 97794
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:36:19,553 ERROR 97794 [-/127.0.0.1/-/2ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:93:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 97794
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:38:35,640 ERROR 97879 [-/127.0.0.1/-/28ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:94:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 97879
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:38:41,815 ERROR 97879 [-/127.0.0.1/-/3ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:94:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 97879
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:39:00,469 ERROR 97889 [-/127.0.0.1/-/28ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:94:41)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 97889
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:39:09,124 ERROR 97889 [-/127.0.0.1/-/2ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:94:41)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 97889
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 14:39:47,816 ERROR 97910 [-/127.0.0.1/-/26ms POST /web/removeNews] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.removeNews (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:94:41)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 97910
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 20:17:06,002 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 709834ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-14 20:47:19,628 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 1627616ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 00:23:30,269 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 12950633ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 05:47:32,164 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 19441891ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 07:55:10,121 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 7657956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 10:04:23,701 ERROR 90008 nodejs.ClusterClientNoResponseError: client no response in 7753578ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 90008
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 20:06:38,528 ERROR 9411 nodejs.ClusterClientNoResponseError: client no response in 568463ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 9411
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 20:09:21,091 ERROR 9411 nodejs.ClusterClientNoResponseError: client no response in 142542ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 9411
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 20:11:21,010 ERROR 9411 nodejs.ClusterClientNoResponseError: client no response in 61317ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 9411
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 20:55:27,099 ERROR 9411 nodejs.ClusterClientNoResponseError: client no response in 2626075ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 9411
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-15 22:27:31,763 ERROR 9411 nodejs.ClusterClientNoResponseError: client no response in 5504656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 9411
+hostname: appledeMacBook-Pro-2.local
+

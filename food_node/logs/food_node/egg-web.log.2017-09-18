@@ -1,0 +1,1551 @@
+2017-09-16 02:33:59,783 INFO 9548 [egg-logrotator] app logger reload: got log-reload message
+2017-09-18 09:50:07,634 WARN 9548 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 10:39:11,390 INFO 27002 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:39:11,428 INFO 27002 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:39:11,428 INFO 27002 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:39:11,762 INFO 27002 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:39:11,833 INFO 27002 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:39:11,836 INFO 27002 [egg-security] use csrf middleware
+2017-09-18 10:39:11,837 INFO 27002 [egg-security] use methodnoallow middleware
+2017-09-18 10:39:11,838 INFO 27002 [egg-security] use noopen middleware
+2017-09-18 10:39:11,839 INFO 27002 [egg-security] use nosniff middleware
+2017-09-18 10:39:11,840 INFO 27002 [egg-security] use xssProtection middleware
+2017-09-18 10:39:11,840 INFO 27002 [egg-security] use xframe middleware
+2017-09-18 10:39:11,841 INFO 27002 [egg-security] use dta middleware
+2017-09-18 10:39:11,841 INFO 27002 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:39:11,859 INFO 27002 [egg-mongoose] starting...
+2017-09-18 10:39:11,886 INFO 27002 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:39:11,888 INFO 27002 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:39:11,893 INFO 27002 [egg-watcher:app] watcher start success
+2017-09-18 10:41:17,342 INFO 27040 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:41:17,383 INFO 27040 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:41:17,383 INFO 27040 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:41:17,661 INFO 27040 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:41:17,735 INFO 27040 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:41:17,737 INFO 27040 [egg-security] use csrf middleware
+2017-09-18 10:41:17,738 INFO 27040 [egg-security] use methodnoallow middleware
+2017-09-18 10:41:17,739 INFO 27040 [egg-security] use noopen middleware
+2017-09-18 10:41:17,739 INFO 27040 [egg-security] use nosniff middleware
+2017-09-18 10:41:17,740 INFO 27040 [egg-security] use xssProtection middleware
+2017-09-18 10:41:17,740 INFO 27040 [egg-security] use xframe middleware
+2017-09-18 10:41:17,741 INFO 27040 [egg-security] use dta middleware
+2017-09-18 10:41:17,741 INFO 27040 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:41:17,754 INFO 27040 [egg-mongoose] starting...
+2017-09-18 10:41:17,782 INFO 27040 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:41:17,783 INFO 27040 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:41:17,787 INFO 27040 [egg-watcher:app] watcher start success
+2017-09-18 10:44:51,638 INFO 27097 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:44:51,677 INFO 27097 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:44:51,677 INFO 27097 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:44:51,998 INFO 27097 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:44:52,069 INFO 27097 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:44:52,071 INFO 27097 [egg-security] use csrf middleware
+2017-09-18 10:44:52,072 INFO 27097 [egg-security] use methodnoallow middleware
+2017-09-18 10:44:52,073 INFO 27097 [egg-security] use noopen middleware
+2017-09-18 10:44:52,073 INFO 27097 [egg-security] use nosniff middleware
+2017-09-18 10:44:52,074 INFO 27097 [egg-security] use xssProtection middleware
+2017-09-18 10:44:52,074 INFO 27097 [egg-security] use xframe middleware
+2017-09-18 10:44:52,075 INFO 27097 [egg-security] use dta middleware
+2017-09-18 10:44:52,075 INFO 27097 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:44:52,093 INFO 27097 [egg-mongoose] starting...
+2017-09-18 10:44:52,121 INFO 27097 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:44:52,123 INFO 27097 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:44:52,127 INFO 27097 [egg-watcher:app] watcher start success
+2017-09-18 10:53:28,702 INFO 27274 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:53:28,740 INFO 27274 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:53:28,740 INFO 27274 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:53:29,054 INFO 27274 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:53:29,169 INFO 27274 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:53:29,172 INFO 27274 [egg-security] use csrf middleware
+2017-09-18 10:53:29,173 INFO 27274 [egg-security] use methodnoallow middleware
+2017-09-18 10:53:29,173 INFO 27274 [egg-security] use noopen middleware
+2017-09-18 10:53:29,174 INFO 27274 [egg-security] use nosniff middleware
+2017-09-18 10:53:29,176 INFO 27274 [egg-security] use xssProtection middleware
+2017-09-18 10:53:29,177 INFO 27274 [egg-security] use xframe middleware
+2017-09-18 10:53:29,177 INFO 27274 [egg-security] use dta middleware
+2017-09-18 10:53:29,177 INFO 27274 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:53:29,193 INFO 27274 [egg-mongoose] starting...
+2017-09-18 10:53:29,218 INFO 27274 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:53:29,219 INFO 27274 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:53:29,223 INFO 27274 [egg-watcher:app] watcher start success
+2017-09-18 10:58:50,498 INFO 27403 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:58:50,536 INFO 27403 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:58:50,536 INFO 27403 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:58:50,900 INFO 27403 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:58:50,977 INFO 27403 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:58:50,981 INFO 27403 [egg-security] use csrf middleware
+2017-09-18 10:58:50,982 INFO 27403 [egg-security] use methodnoallow middleware
+2017-09-18 10:58:50,983 INFO 27403 [egg-security] use noopen middleware
+2017-09-18 10:58:50,983 INFO 27403 [egg-security] use nosniff middleware
+2017-09-18 10:58:50,984 INFO 27403 [egg-security] use xssProtection middleware
+2017-09-18 10:58:50,985 INFO 27403 [egg-security] use xframe middleware
+2017-09-18 10:58:50,985 INFO 27403 [egg-security] use dta middleware
+2017-09-18 10:58:50,986 INFO 27403 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:58:51,003 INFO 27403 [egg-mongoose] starting...
+2017-09-18 10:58:51,030 INFO 27403 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:58:51,032 INFO 27403 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:58:51,036 INFO 27403 [egg-watcher:app] watcher start success
+2017-09-18 10:58:52,704 INFO 27404 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:58:52,757 INFO 27404 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:58:52,757 INFO 27404 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:58:53,222 INFO 27404 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:58:53,278 INFO 27404 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:58:53,282 INFO 27404 [egg-security] use csrf middleware
+2017-09-18 10:58:53,283 INFO 27404 [egg-security] use methodnoallow middleware
+2017-09-18 10:58:53,283 INFO 27404 [egg-security] use noopen middleware
+2017-09-18 10:58:53,284 INFO 27404 [egg-security] use nosniff middleware
+2017-09-18 10:58:53,284 INFO 27404 [egg-security] use xssProtection middleware
+2017-09-18 10:58:53,284 INFO 27404 [egg-security] use xframe middleware
+2017-09-18 10:58:53,285 INFO 27404 [egg-security] use dta middleware
+2017-09-18 10:58:53,285 INFO 27404 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:58:53,311 INFO 27404 [egg-mongoose] starting...
+2017-09-18 10:58:53,340 INFO 27404 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:58:53,342 INFO 27404 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:58:53,348 INFO 27404 [egg-watcher:app] watcher start success
+2017-09-18 10:59:28,149 INFO 27411 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:59:28,183 INFO 27411 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:59:28,183 INFO 27411 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:59:28,435 INFO 27411 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:59:28,527 INFO 27411 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:59:28,556 INFO 27411 [egg-security] use csrf middleware
+2017-09-18 10:59:28,557 INFO 27411 [egg-security] use methodnoallow middleware
+2017-09-18 10:59:28,558 INFO 27411 [egg-security] use noopen middleware
+2017-09-18 10:59:28,558 INFO 27411 [egg-security] use nosniff middleware
+2017-09-18 10:59:28,559 INFO 27411 [egg-security] use xssProtection middleware
+2017-09-18 10:59:28,560 INFO 27411 [egg-security] use xframe middleware
+2017-09-18 10:59:28,560 INFO 27411 [egg-security] use dta middleware
+2017-09-18 10:59:28,561 INFO 27411 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:59:28,593 INFO 27411 [egg-mongoose] starting...
+2017-09-18 10:59:28,678 INFO 27411 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:59:28,683 INFO 27411 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:59:28,692 INFO 27411 [egg-watcher:app] watcher start success
+2017-09-18 10:59:36,300 INFO 27418 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 10:59:36,331 INFO 27418 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 10:59:36,331 INFO 27418 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 10:59:36,533 INFO 27418 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 10:59:36,595 INFO 27418 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 10:59:36,598 INFO 27418 [egg-security] use csrf middleware
+2017-09-18 10:59:36,599 INFO 27418 [egg-security] use methodnoallow middleware
+2017-09-18 10:59:36,599 INFO 27418 [egg-security] use noopen middleware
+2017-09-18 10:59:36,599 INFO 27418 [egg-security] use nosniff middleware
+2017-09-18 10:59:36,599 INFO 27418 [egg-security] use xssProtection middleware
+2017-09-18 10:59:36,600 INFO 27418 [egg-security] use xframe middleware
+2017-09-18 10:59:36,600 INFO 27418 [egg-security] use dta middleware
+2017-09-18 10:59:36,600 INFO 27418 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 10:59:36,613 INFO 27418 [egg-mongoose] starting...
+2017-09-18 10:59:36,638 INFO 27418 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 10:59:36,639 INFO 27418 [egg-mongoose] start successfully and server status is ok
+2017-09-18 10:59:36,643 INFO 27418 [egg-watcher:app] watcher start success
+2017-09-18 11:01:04,534 INFO 27441 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:01:04,577 INFO 27441 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:01:04,577 INFO 27441 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:01:05,019 INFO 27441 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:01:05,111 INFO 27441 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:01:05,114 INFO 27441 [egg-security] use csrf middleware
+2017-09-18 11:01:05,115 INFO 27441 [egg-security] use methodnoallow middleware
+2017-09-18 11:01:05,115 INFO 27441 [egg-security] use noopen middleware
+2017-09-18 11:01:05,116 INFO 27441 [egg-security] use nosniff middleware
+2017-09-18 11:01:05,116 INFO 27441 [egg-security] use xssProtection middleware
+2017-09-18 11:01:05,117 INFO 27441 [egg-security] use xframe middleware
+2017-09-18 11:01:05,118 INFO 27441 [egg-security] use dta middleware
+2017-09-18 11:01:05,118 INFO 27441 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:01:05,134 INFO 27441 [egg-mongoose] starting...
+2017-09-18 11:01:05,189 INFO 27441 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:01:05,190 INFO 27441 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:01:05,195 INFO 27441 [egg-watcher:app] watcher start success
+2017-09-18 11:01:34,620 INFO 27455 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:01:34,671 INFO 27455 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:01:34,672 INFO 27455 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:01:35,017 INFO 27455 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:01:35,090 INFO 27455 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:01:35,093 INFO 27455 [egg-security] use csrf middleware
+2017-09-18 11:01:35,094 INFO 27455 [egg-security] use methodnoallow middleware
+2017-09-18 11:01:35,095 INFO 27455 [egg-security] use noopen middleware
+2017-09-18 11:01:35,095 INFO 27455 [egg-security] use nosniff middleware
+2017-09-18 11:01:35,096 INFO 27455 [egg-security] use xssProtection middleware
+2017-09-18 11:01:35,096 INFO 27455 [egg-security] use xframe middleware
+2017-09-18 11:01:35,097 INFO 27455 [egg-security] use dta middleware
+2017-09-18 11:01:35,097 INFO 27455 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:01:35,117 INFO 27455 [egg-mongoose] starting...
+2017-09-18 11:01:35,155 INFO 27455 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:01:35,156 INFO 27455 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:01:35,160 INFO 27455 [egg-watcher:app] watcher start success
+2017-09-18 11:02:01,022 INFO 27479 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:02:01,056 INFO 27479 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:02:01,056 INFO 27479 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:02:01,414 INFO 27479 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:02:01,520 INFO 27479 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:02:01,524 INFO 27479 [egg-security] use csrf middleware
+2017-09-18 11:02:01,525 INFO 27479 [egg-security] use methodnoallow middleware
+2017-09-18 11:02:01,526 INFO 27479 [egg-security] use noopen middleware
+2017-09-18 11:02:01,526 INFO 27479 [egg-security] use nosniff middleware
+2017-09-18 11:02:01,527 INFO 27479 [egg-security] use xssProtection middleware
+2017-09-18 11:02:01,528 INFO 27479 [egg-security] use xframe middleware
+2017-09-18 11:02:01,530 INFO 27479 [egg-security] use dta middleware
+2017-09-18 11:02:01,530 INFO 27479 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:02:01,546 INFO 27479 [egg-mongoose] starting...
+2017-09-18 11:02:01,579 INFO 27479 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:02:01,581 INFO 27479 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:02:01,587 INFO 27479 [egg-watcher:app] watcher start success
+2017-09-18 11:02:51,062 INFO 27495 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:02:51,104 INFO 27495 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:02:51,104 INFO 27495 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:02:51,425 INFO 27495 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:02:51,491 INFO 27495 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:02:51,494 INFO 27495 [egg-security] use csrf middleware
+2017-09-18 11:02:51,495 INFO 27495 [egg-security] use methodnoallow middleware
+2017-09-18 11:02:51,495 INFO 27495 [egg-security] use noopen middleware
+2017-09-18 11:02:51,496 INFO 27495 [egg-security] use nosniff middleware
+2017-09-18 11:02:51,498 INFO 27495 [egg-security] use xssProtection middleware
+2017-09-18 11:02:51,498 INFO 27495 [egg-security] use xframe middleware
+2017-09-18 11:02:51,499 INFO 27495 [egg-security] use dta middleware
+2017-09-18 11:02:51,499 INFO 27495 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:02:51,515 INFO 27495 [egg-mongoose] starting...
+2017-09-18 11:02:51,538 INFO 27495 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:02:51,539 INFO 27495 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:02:51,544 INFO 27495 [egg-watcher:app] watcher start success
+2017-09-18 11:03:38,346 INFO 27504 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:03:38,376 INFO 27504 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:03:38,376 INFO 27504 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:03:38,579 INFO 27504 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:03:38,639 INFO 27504 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:03:38,641 INFO 27504 [egg-security] use csrf middleware
+2017-09-18 11:03:38,642 INFO 27504 [egg-security] use methodnoallow middleware
+2017-09-18 11:03:38,642 INFO 27504 [egg-security] use noopen middleware
+2017-09-18 11:03:38,642 INFO 27504 [egg-security] use nosniff middleware
+2017-09-18 11:03:38,643 INFO 27504 [egg-security] use xssProtection middleware
+2017-09-18 11:03:38,643 INFO 27504 [egg-security] use xframe middleware
+2017-09-18 11:03:38,644 INFO 27504 [egg-security] use dta middleware
+2017-09-18 11:03:38,644 INFO 27504 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:03:38,657 INFO 27504 [egg-mongoose] starting...
+2017-09-18 11:03:38,681 INFO 27504 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:03:38,682 INFO 27504 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:03:38,687 INFO 27504 [egg-watcher:app] watcher start success
+2017-09-18 11:03:48,524 INFO 27506 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:03:48,567 INFO 27506 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:03:48,567 INFO 27506 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:03:48,837 INFO 27506 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:03:48,933 INFO 27506 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:03:48,935 INFO 27506 [egg-security] use csrf middleware
+2017-09-18 11:03:48,936 INFO 27506 [egg-security] use methodnoallow middleware
+2017-09-18 11:03:48,937 INFO 27506 [egg-security] use noopen middleware
+2017-09-18 11:03:48,938 INFO 27506 [egg-security] use nosniff middleware
+2017-09-18 11:03:48,939 INFO 27506 [egg-security] use xssProtection middleware
+2017-09-18 11:03:48,939 INFO 27506 [egg-security] use xframe middleware
+2017-09-18 11:03:48,940 INFO 27506 [egg-security] use dta middleware
+2017-09-18 11:03:48,940 INFO 27506 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:03:48,957 INFO 27506 [egg-mongoose] starting...
+2017-09-18 11:03:48,983 INFO 27506 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:03:48,985 INFO 27506 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:03:48,990 INFO 27506 [egg-watcher:app] watcher start success
+2017-09-18 11:04:05,293 INFO 27510 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:04:05,330 INFO 27510 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:04:05,330 INFO 27510 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:04:05,617 INFO 27510 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:04:05,692 INFO 27510 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:04:05,695 INFO 27510 [egg-security] use csrf middleware
+2017-09-18 11:04:05,696 INFO 27510 [egg-security] use methodnoallow middleware
+2017-09-18 11:04:05,696 INFO 27510 [egg-security] use noopen middleware
+2017-09-18 11:04:05,697 INFO 27510 [egg-security] use nosniff middleware
+2017-09-18 11:04:05,697 INFO 27510 [egg-security] use xssProtection middleware
+2017-09-18 11:04:05,698 INFO 27510 [egg-security] use xframe middleware
+2017-09-18 11:04:05,698 INFO 27510 [egg-security] use dta middleware
+2017-09-18 11:04:05,699 INFO 27510 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:04:05,713 INFO 27510 [egg-mongoose] starting...
+2017-09-18 11:04:05,736 INFO 27510 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:04:05,737 INFO 27510 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:04:05,741 INFO 27510 [egg-watcher:app] watcher start success
+2017-09-18 11:05:06,569 INFO 27534 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:05:06,602 INFO 27534 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:05:06,602 INFO 27534 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:05:06,803 INFO 27534 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:05:06,863 INFO 27534 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:05:06,865 INFO 27534 [egg-security] use csrf middleware
+2017-09-18 11:05:06,866 INFO 27534 [egg-security] use methodnoallow middleware
+2017-09-18 11:05:06,866 INFO 27534 [egg-security] use noopen middleware
+2017-09-18 11:05:06,866 INFO 27534 [egg-security] use nosniff middleware
+2017-09-18 11:05:06,866 INFO 27534 [egg-security] use xssProtection middleware
+2017-09-18 11:05:06,867 INFO 27534 [egg-security] use xframe middleware
+2017-09-18 11:05:06,867 INFO 27534 [egg-security] use dta middleware
+2017-09-18 11:05:06,867 INFO 27534 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:05:06,884 INFO 27534 [egg-mongoose] starting...
+2017-09-18 11:05:06,908 INFO 27534 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:05:06,909 INFO 27534 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:05:06,912 INFO 27534 [egg-watcher:app] watcher start success
+2017-09-18 11:09:26,723 INFO 27587 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:09:26,764 INFO 27587 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:09:26,764 INFO 27587 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:09:27,059 INFO 27587 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:09:27,137 INFO 27587 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:09:27,140 INFO 27587 [egg-security] use csrf middleware
+2017-09-18 11:09:27,141 INFO 27587 [egg-security] use methodnoallow middleware
+2017-09-18 11:09:27,141 INFO 27587 [egg-security] use noopen middleware
+2017-09-18 11:09:27,142 INFO 27587 [egg-security] use nosniff middleware
+2017-09-18 11:09:27,143 INFO 27587 [egg-security] use xssProtection middleware
+2017-09-18 11:09:27,143 INFO 27587 [egg-security] use xframe middleware
+2017-09-18 11:09:27,144 INFO 27587 [egg-security] use dta middleware
+2017-09-18 11:09:27,144 INFO 27587 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:09:27,162 INFO 27587 [egg-mongoose] starting...
+2017-09-18 11:09:27,187 INFO 27587 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:09:27,189 INFO 27587 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:09:27,193 INFO 27587 [egg-watcher:app] watcher start success
+2017-09-18 11:09:44,589 INFO 27591 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:09:44,630 INFO 27591 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:09:44,630 INFO 27591 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:09:44,955 INFO 27591 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:09:45,041 INFO 27591 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:09:45,044 INFO 27591 [egg-security] use csrf middleware
+2017-09-18 11:09:45,045 INFO 27591 [egg-security] use methodnoallow middleware
+2017-09-18 11:09:45,046 INFO 27591 [egg-security] use noopen middleware
+2017-09-18 11:09:45,047 INFO 27591 [egg-security] use nosniff middleware
+2017-09-18 11:09:45,047 INFO 27591 [egg-security] use xssProtection middleware
+2017-09-18 11:09:45,048 INFO 27591 [egg-security] use xframe middleware
+2017-09-18 11:09:45,048 INFO 27591 [egg-security] use dta middleware
+2017-09-18 11:09:45,048 INFO 27591 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:09:45,067 INFO 27591 [egg-mongoose] starting...
+2017-09-18 11:09:45,096 INFO 27591 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:09:45,097 INFO 27591 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:09:45,100 INFO 27591 [egg-watcher:app] watcher start success
+2017-09-18 11:09:52,561 INFO 27593 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:09:52,596 INFO 27593 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:09:52,596 INFO 27593 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:09:52,908 INFO 27593 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:09:53,010 INFO 27593 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:09:53,013 INFO 27593 [egg-security] use csrf middleware
+2017-09-18 11:09:53,014 INFO 27593 [egg-security] use methodnoallow middleware
+2017-09-18 11:09:53,015 INFO 27593 [egg-security] use noopen middleware
+2017-09-18 11:09:53,015 INFO 27593 [egg-security] use nosniff middleware
+2017-09-18 11:09:53,016 INFO 27593 [egg-security] use xssProtection middleware
+2017-09-18 11:09:53,017 INFO 27593 [egg-security] use xframe middleware
+2017-09-18 11:09:53,017 INFO 27593 [egg-security] use dta middleware
+2017-09-18 11:09:53,017 INFO 27593 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:09:53,034 INFO 27593 [egg-mongoose] starting...
+2017-09-18 11:09:53,065 INFO 27593 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:09:53,067 INFO 27593 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:09:53,070 INFO 27593 [egg-watcher:app] watcher start success
+2017-09-18 11:10:01,198 INFO 27594 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:10:01,229 INFO 27594 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:10:01,229 INFO 27594 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:10:01,424 INFO 27594 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:10:01,485 INFO 27594 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:10:01,487 INFO 27594 [egg-security] use csrf middleware
+2017-09-18 11:10:01,488 INFO 27594 [egg-security] use methodnoallow middleware
+2017-09-18 11:10:01,488 INFO 27594 [egg-security] use noopen middleware
+2017-09-18 11:10:01,489 INFO 27594 [egg-security] use nosniff middleware
+2017-09-18 11:10:01,489 INFO 27594 [egg-security] use xssProtection middleware
+2017-09-18 11:10:01,489 INFO 27594 [egg-security] use xframe middleware
+2017-09-18 11:10:01,490 INFO 27594 [egg-security] use dta middleware
+2017-09-18 11:10:01,490 INFO 27594 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:10:01,506 INFO 27594 [egg-mongoose] starting...
+2017-09-18 11:10:01,534 INFO 27594 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:10:01,535 INFO 27594 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:10:01,541 INFO 27594 [egg-watcher:app] watcher start success
+2017-09-18 11:11:07,165 INFO 27626 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:11:07,209 INFO 27626 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:11:07,209 INFO 27626 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:11:07,604 INFO 27626 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:11:07,688 INFO 27626 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:11:07,691 INFO 27626 [egg-security] use csrf middleware
+2017-09-18 11:11:07,692 INFO 27626 [egg-security] use methodnoallow middleware
+2017-09-18 11:11:07,693 INFO 27626 [egg-security] use noopen middleware
+2017-09-18 11:11:07,694 INFO 27626 [egg-security] use nosniff middleware
+2017-09-18 11:11:07,695 INFO 27626 [egg-security] use xssProtection middleware
+2017-09-18 11:11:07,695 INFO 27626 [egg-security] use xframe middleware
+2017-09-18 11:11:07,696 INFO 27626 [egg-security] use dta middleware
+2017-09-18 11:11:07,696 INFO 27626 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:11:07,716 INFO 27626 [egg-mongoose] starting...
+2017-09-18 11:11:07,747 INFO 27626 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:11:07,748 INFO 27626 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:11:07,754 INFO 27626 [egg-watcher:app] watcher start success
+2017-09-18 11:11:13,338 INFO 27633 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:11:13,376 INFO 27633 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:11:13,376 INFO 27633 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:11:13,648 INFO 27633 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:11:13,706 INFO 27633 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:11:13,708 INFO 27633 [egg-security] use csrf middleware
+2017-09-18 11:11:13,709 INFO 27633 [egg-security] use methodnoallow middleware
+2017-09-18 11:11:13,709 INFO 27633 [egg-security] use noopen middleware
+2017-09-18 11:11:13,710 INFO 27633 [egg-security] use nosniff middleware
+2017-09-18 11:11:13,710 INFO 27633 [egg-security] use xssProtection middleware
+2017-09-18 11:11:13,711 INFO 27633 [egg-security] use xframe middleware
+2017-09-18 11:11:13,711 INFO 27633 [egg-security] use dta middleware
+2017-09-18 11:11:13,711 INFO 27633 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:11:13,724 INFO 27633 [egg-mongoose] starting...
+2017-09-18 11:11:13,795 INFO 27633 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:11:13,807 INFO 27633 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:11:13,845 INFO 27633 [egg-watcher:app] watcher start success
+2017-09-18 11:11:23,497 INFO 27641 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:11:23,533 INFO 27641 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:11:23,534 INFO 27641 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:11:23,769 INFO 27641 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:11:23,831 INFO 27641 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:11:23,834 INFO 27641 [egg-security] use csrf middleware
+2017-09-18 11:11:23,835 INFO 27641 [egg-security] use methodnoallow middleware
+2017-09-18 11:11:23,835 INFO 27641 [egg-security] use noopen middleware
+2017-09-18 11:11:23,836 INFO 27641 [egg-security] use nosniff middleware
+2017-09-18 11:11:23,837 INFO 27641 [egg-security] use xssProtection middleware
+2017-09-18 11:11:23,840 INFO 27641 [egg-security] use xframe middleware
+2017-09-18 11:11:23,841 INFO 27641 [egg-security] use dta middleware
+2017-09-18 11:11:23,841 INFO 27641 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:11:23,967 INFO 27641 [egg-mongoose] starting...
+2017-09-18 11:11:24,047 INFO 27641 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:11:24,049 INFO 27641 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:11:24,055 INFO 27641 [egg-watcher:app] watcher start success
+2017-09-18 11:12:00,199 INFO 27651 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:12:00,241 INFO 27651 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:12:00,242 INFO 27651 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:12:00,574 INFO 27651 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:12:00,647 INFO 27651 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:12:00,650 INFO 27651 [egg-security] use csrf middleware
+2017-09-18 11:12:00,651 INFO 27651 [egg-security] use methodnoallow middleware
+2017-09-18 11:12:00,652 INFO 27651 [egg-security] use noopen middleware
+2017-09-18 11:12:00,653 INFO 27651 [egg-security] use nosniff middleware
+2017-09-18 11:12:00,653 INFO 27651 [egg-security] use xssProtection middleware
+2017-09-18 11:12:00,654 INFO 27651 [egg-security] use xframe middleware
+2017-09-18 11:12:00,656 INFO 27651 [egg-security] use dta middleware
+2017-09-18 11:12:00,656 INFO 27651 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:12:00,673 INFO 27651 [egg-mongoose] starting...
+2017-09-18 11:12:00,698 INFO 27651 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:12:00,699 INFO 27651 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:12:00,703 INFO 27651 [egg-watcher:app] watcher start success
+2017-09-18 11:13:27,788 INFO 27680 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:13:27,833 INFO 27680 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:13:27,833 INFO 27680 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:13:28,135 INFO 27680 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:13:28,204 INFO 27680 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:13:28,207 INFO 27680 [egg-security] use csrf middleware
+2017-09-18 11:13:28,207 INFO 27680 [egg-security] use methodnoallow middleware
+2017-09-18 11:13:28,208 INFO 27680 [egg-security] use noopen middleware
+2017-09-18 11:13:28,209 INFO 27680 [egg-security] use nosniff middleware
+2017-09-18 11:13:28,209 INFO 27680 [egg-security] use xssProtection middleware
+2017-09-18 11:13:28,210 INFO 27680 [egg-security] use xframe middleware
+2017-09-18 11:13:28,210 INFO 27680 [egg-security] use dta middleware
+2017-09-18 11:13:28,210 INFO 27680 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:13:28,226 INFO 27680 [egg-mongoose] starting...
+2017-09-18 11:13:28,253 INFO 27680 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:13:28,254 INFO 27680 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:13:28,258 INFO 27680 [egg-watcher:app] watcher start success
+2017-09-18 11:14:09,130 INFO 27706 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:14:09,168 INFO 27706 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:14:09,168 INFO 27706 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:14:09,469 INFO 27706 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:14:09,548 INFO 27706 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:14:09,551 INFO 27706 [egg-security] use csrf middleware
+2017-09-18 11:14:09,551 INFO 27706 [egg-security] use methodnoallow middleware
+2017-09-18 11:14:09,552 INFO 27706 [egg-security] use noopen middleware
+2017-09-18 11:14:09,553 INFO 27706 [egg-security] use nosniff middleware
+2017-09-18 11:14:09,553 INFO 27706 [egg-security] use xssProtection middleware
+2017-09-18 11:14:09,554 INFO 27706 [egg-security] use xframe middleware
+2017-09-18 11:14:09,554 INFO 27706 [egg-security] use dta middleware
+2017-09-18 11:14:09,554 INFO 27706 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:14:09,571 INFO 27706 [egg-mongoose] starting...
+2017-09-18 11:14:09,596 INFO 27706 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:14:09,597 INFO 27706 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:14:09,601 INFO 27706 [egg-watcher:app] watcher start success
+2017-09-18 11:14:48,039 INFO 27719 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:14:48,076 INFO 27719 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:14:48,077 INFO 27719 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:14:48,379 INFO 27719 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:14:48,465 INFO 27719 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:14:48,468 INFO 27719 [egg-security] use csrf middleware
+2017-09-18 11:14:48,468 INFO 27719 [egg-security] use methodnoallow middleware
+2017-09-18 11:14:48,469 INFO 27719 [egg-security] use noopen middleware
+2017-09-18 11:14:48,470 INFO 27719 [egg-security] use nosniff middleware
+2017-09-18 11:14:48,470 INFO 27719 [egg-security] use xssProtection middleware
+2017-09-18 11:14:48,471 INFO 27719 [egg-security] use xframe middleware
+2017-09-18 11:14:48,471 INFO 27719 [egg-security] use dta middleware
+2017-09-18 11:14:48,472 INFO 27719 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:14:48,490 INFO 27719 [egg-mongoose] starting...
+2017-09-18 11:14:48,518 INFO 27719 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:14:48,520 INFO 27719 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:14:48,525 INFO 27719 [egg-watcher:app] watcher start success
+2017-09-18 11:15:04,908 INFO 27728 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:15:04,949 INFO 27728 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:15:04,949 INFO 27728 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:15:05,294 INFO 27728 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:15:05,365 INFO 27728 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:15:05,367 INFO 27728 [egg-security] use csrf middleware
+2017-09-18 11:15:05,368 INFO 27728 [egg-security] use methodnoallow middleware
+2017-09-18 11:15:05,369 INFO 27728 [egg-security] use noopen middleware
+2017-09-18 11:15:05,369 INFO 27728 [egg-security] use nosniff middleware
+2017-09-18 11:15:05,370 INFO 27728 [egg-security] use xssProtection middleware
+2017-09-18 11:15:05,371 INFO 27728 [egg-security] use xframe middleware
+2017-09-18 11:15:05,371 INFO 27728 [egg-security] use dta middleware
+2017-09-18 11:15:05,371 INFO 27728 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:15:05,386 INFO 27728 [egg-mongoose] starting...
+2017-09-18 11:15:05,415 INFO 27728 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:15:05,416 INFO 27728 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:15:05,421 INFO 27728 [egg-watcher:app] watcher start success
+2017-09-18 11:15:23,644 INFO 27735 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:15:23,674 INFO 27735 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:15:23,674 INFO 27735 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:15:23,989 INFO 27735 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:15:24,167 INFO 27735 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:15:24,178 INFO 27735 [egg-security] use csrf middleware
+2017-09-18 11:15:24,179 INFO 27735 [egg-security] use methodnoallow middleware
+2017-09-18 11:15:24,180 INFO 27735 [egg-security] use noopen middleware
+2017-09-18 11:15:24,182 INFO 27735 [egg-security] use nosniff middleware
+2017-09-18 11:15:24,183 INFO 27735 [egg-security] use xssProtection middleware
+2017-09-18 11:15:24,183 INFO 27735 [egg-security] use xframe middleware
+2017-09-18 11:15:24,184 INFO 27735 [egg-security] use dta middleware
+2017-09-18 11:15:24,184 INFO 27735 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:15:24,206 INFO 27735 [egg-mongoose] starting...
+2017-09-18 11:15:24,234 INFO 27735 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:15:24,235 INFO 27735 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:15:24,239 INFO 27735 [egg-watcher:app] watcher start success
+2017-09-18 11:15:44,239 INFO 27744 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:15:44,273 INFO 27744 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:15:44,273 INFO 27744 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:15:44,522 INFO 27744 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:15:44,594 INFO 27744 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:15:44,596 INFO 27744 [egg-security] use csrf middleware
+2017-09-18 11:15:44,597 INFO 27744 [egg-security] use methodnoallow middleware
+2017-09-18 11:15:44,597 INFO 27744 [egg-security] use noopen middleware
+2017-09-18 11:15:44,597 INFO 27744 [egg-security] use nosniff middleware
+2017-09-18 11:15:44,598 INFO 27744 [egg-security] use xssProtection middleware
+2017-09-18 11:15:44,598 INFO 27744 [egg-security] use xframe middleware
+2017-09-18 11:15:44,598 INFO 27744 [egg-security] use dta middleware
+2017-09-18 11:15:44,598 INFO 27744 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:15:44,613 INFO 27744 [egg-mongoose] starting...
+2017-09-18 11:15:44,640 INFO 27744 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:15:44,641 INFO 27744 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:15:44,648 INFO 27744 [egg-watcher:app] watcher start success
+2017-09-18 11:15:55,053 INFO 27748 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:15:55,084 INFO 27748 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:15:55,085 INFO 27748 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:15:55,307 INFO 27748 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:15:55,379 INFO 27748 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:15:55,381 INFO 27748 [egg-security] use csrf middleware
+2017-09-18 11:15:55,382 INFO 27748 [egg-security] use methodnoallow middleware
+2017-09-18 11:15:55,382 INFO 27748 [egg-security] use noopen middleware
+2017-09-18 11:15:55,382 INFO 27748 [egg-security] use nosniff middleware
+2017-09-18 11:15:55,383 INFO 27748 [egg-security] use xssProtection middleware
+2017-09-18 11:15:55,383 INFO 27748 [egg-security] use xframe middleware
+2017-09-18 11:15:55,383 INFO 27748 [egg-security] use dta middleware
+2017-09-18 11:15:55,383 INFO 27748 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:15:55,402 INFO 27748 [egg-mongoose] starting...
+2017-09-18 11:15:55,431 INFO 27748 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:15:55,432 INFO 27748 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:15:55,435 INFO 27748 [egg-watcher:app] watcher start success
+2017-09-18 11:16:31,019 INFO 27757 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:16:31,062 INFO 27757 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:16:31,062 INFO 27757 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:16:31,400 INFO 27757 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:16:31,474 INFO 27757 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:16:31,477 INFO 27757 [egg-security] use csrf middleware
+2017-09-18 11:16:31,478 INFO 27757 [egg-security] use methodnoallow middleware
+2017-09-18 11:16:31,479 INFO 27757 [egg-security] use noopen middleware
+2017-09-18 11:16:31,479 INFO 27757 [egg-security] use nosniff middleware
+2017-09-18 11:16:31,480 INFO 27757 [egg-security] use xssProtection middleware
+2017-09-18 11:16:31,481 INFO 27757 [egg-security] use xframe middleware
+2017-09-18 11:16:31,481 INFO 27757 [egg-security] use dta middleware
+2017-09-18 11:16:31,481 INFO 27757 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:16:31,497 INFO 27757 [egg-mongoose] starting...
+2017-09-18 11:16:31,524 INFO 27757 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:16:31,525 INFO 27757 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:16:31,529 INFO 27757 [egg-watcher:app] watcher start success
+2017-09-18 11:16:33,821 INFO 27759 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:16:33,854 INFO 27759 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:16:33,854 INFO 27759 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:16:34,288 INFO 27759 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:16:34,385 INFO 27759 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:16:34,387 INFO 27759 [egg-security] use csrf middleware
+2017-09-18 11:16:34,388 INFO 27759 [egg-security] use methodnoallow middleware
+2017-09-18 11:16:34,388 INFO 27759 [egg-security] use noopen middleware
+2017-09-18 11:16:34,388 INFO 27759 [egg-security] use nosniff middleware
+2017-09-18 11:16:34,389 INFO 27759 [egg-security] use xssProtection middleware
+2017-09-18 11:16:34,389 INFO 27759 [egg-security] use xframe middleware
+2017-09-18 11:16:34,389 INFO 27759 [egg-security] use dta middleware
+2017-09-18 11:16:34,389 INFO 27759 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:16:34,405 INFO 27759 [egg-mongoose] starting...
+2017-09-18 11:16:34,439 INFO 27759 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:16:34,442 INFO 27759 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:16:34,449 INFO 27759 [egg-watcher:app] watcher start success
+2017-09-18 11:16:44,949 INFO 27780 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:16:44,984 INFO 27780 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:16:44,984 INFO 27780 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:16:45,203 INFO 27780 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:16:45,267 INFO 27780 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:16:45,270 INFO 27780 [egg-security] use csrf middleware
+2017-09-18 11:16:45,270 INFO 27780 [egg-security] use methodnoallow middleware
+2017-09-18 11:16:45,271 INFO 27780 [egg-security] use noopen middleware
+2017-09-18 11:16:45,271 INFO 27780 [egg-security] use nosniff middleware
+2017-09-18 11:16:45,272 INFO 27780 [egg-security] use xssProtection middleware
+2017-09-18 11:16:45,272 INFO 27780 [egg-security] use xframe middleware
+2017-09-18 11:16:45,272 INFO 27780 [egg-security] use dta middleware
+2017-09-18 11:16:45,272 INFO 27780 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:16:45,289 INFO 27780 [egg-mongoose] starting...
+2017-09-18 11:16:45,316 INFO 27780 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:16:45,317 INFO 27780 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:16:45,321 INFO 27780 [egg-watcher:app] watcher start success
+2017-09-18 11:18:28,570 INFO 27793 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:18:28,608 INFO 27793 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:18:28,608 INFO 27793 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:18:28,908 INFO 27793 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:18:28,989 INFO 27793 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:18:28,991 INFO 27793 [egg-security] use csrf middleware
+2017-09-18 11:18:28,993 INFO 27793 [egg-security] use methodnoallow middleware
+2017-09-18 11:18:28,993 INFO 27793 [egg-security] use noopen middleware
+2017-09-18 11:18:28,994 INFO 27793 [egg-security] use nosniff middleware
+2017-09-18 11:18:28,994 INFO 27793 [egg-security] use xssProtection middleware
+2017-09-18 11:18:28,995 INFO 27793 [egg-security] use xframe middleware
+2017-09-18 11:18:28,996 INFO 27793 [egg-security] use dta middleware
+2017-09-18 11:18:28,996 INFO 27793 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:18:29,012 INFO 27793 [egg-mongoose] starting...
+2017-09-18 11:18:29,037 INFO 27793 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:18:29,039 INFO 27793 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:18:29,043 INFO 27793 [egg-watcher:app] watcher start success
+2017-09-18 11:19:05,408 INFO 27798 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:19:05,450 INFO 27798 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:19:05,450 INFO 27798 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:19:05,767 INFO 27798 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:19:05,831 INFO 27798 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:19:05,833 INFO 27798 [egg-security] use csrf middleware
+2017-09-18 11:19:05,834 INFO 27798 [egg-security] use methodnoallow middleware
+2017-09-18 11:19:05,835 INFO 27798 [egg-security] use noopen middleware
+2017-09-18 11:19:05,835 INFO 27798 [egg-security] use nosniff middleware
+2017-09-18 11:19:05,837 INFO 27798 [egg-security] use xssProtection middleware
+2017-09-18 11:19:05,838 INFO 27798 [egg-security] use xframe middleware
+2017-09-18 11:19:05,838 INFO 27798 [egg-security] use dta middleware
+2017-09-18 11:19:05,838 INFO 27798 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:19:05,852 INFO 27798 [egg-mongoose] starting...
+2017-09-18 11:19:05,877 INFO 27798 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:19:05,879 INFO 27798 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:19:05,883 INFO 27798 [egg-watcher:app] watcher start success
+2017-09-18 11:19:21,788 INFO 27800 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:19:21,828 INFO 27800 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:19:21,828 INFO 27800 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:19:22,114 INFO 27800 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:19:22,198 INFO 27800 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:19:22,201 INFO 27800 [egg-security] use csrf middleware
+2017-09-18 11:19:22,202 INFO 27800 [egg-security] use methodnoallow middleware
+2017-09-18 11:19:22,203 INFO 27800 [egg-security] use noopen middleware
+2017-09-18 11:19:22,204 INFO 27800 [egg-security] use nosniff middleware
+2017-09-18 11:19:22,205 INFO 27800 [egg-security] use xssProtection middleware
+2017-09-18 11:19:22,205 INFO 27800 [egg-security] use xframe middleware
+2017-09-18 11:19:22,206 INFO 27800 [egg-security] use dta middleware
+2017-09-18 11:19:22,206 INFO 27800 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:19:22,223 INFO 27800 [egg-mongoose] starting...
+2017-09-18 11:19:22,276 INFO 27800 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:19:22,278 INFO 27800 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:19:22,286 INFO 27800 [egg-watcher:app] watcher start success
+2017-09-18 11:19:25,563 INFO 27802 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:19:25,595 INFO 27802 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:19:25,595 INFO 27802 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:19:25,807 INFO 27802 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:19:25,866 INFO 27802 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:19:25,868 INFO 27802 [egg-security] use csrf middleware
+2017-09-18 11:19:25,869 INFO 27802 [egg-security] use methodnoallow middleware
+2017-09-18 11:19:25,869 INFO 27802 [egg-security] use noopen middleware
+2017-09-18 11:19:25,869 INFO 27802 [egg-security] use nosniff middleware
+2017-09-18 11:19:25,870 INFO 27802 [egg-security] use xssProtection middleware
+2017-09-18 11:19:25,870 INFO 27802 [egg-security] use xframe middleware
+2017-09-18 11:19:25,870 INFO 27802 [egg-security] use dta middleware
+2017-09-18 11:19:25,870 INFO 27802 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:19:25,882 INFO 27802 [egg-mongoose] starting...
+2017-09-18 11:19:25,906 INFO 27802 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:19:25,908 INFO 27802 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:19:25,913 INFO 27802 [egg-watcher:app] watcher start success
+2017-09-18 11:20:12,323 INFO 27831 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:20:12,360 INFO 27831 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:20:12,360 INFO 27831 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:20:12,685 INFO 27831 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:20:12,761 INFO 27831 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:20:12,763 INFO 27831 [egg-security] use csrf middleware
+2017-09-18 11:20:12,764 INFO 27831 [egg-security] use methodnoallow middleware
+2017-09-18 11:20:12,764 INFO 27831 [egg-security] use noopen middleware
+2017-09-18 11:20:12,765 INFO 27831 [egg-security] use nosniff middleware
+2017-09-18 11:20:12,766 INFO 27831 [egg-security] use xssProtection middleware
+2017-09-18 11:20:12,766 INFO 27831 [egg-security] use xframe middleware
+2017-09-18 11:20:12,767 INFO 27831 [egg-security] use dta middleware
+2017-09-18 11:20:12,767 INFO 27831 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:20:12,786 INFO 27831 [egg-mongoose] starting...
+2017-09-18 11:20:12,813 INFO 27831 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:20:12,814 INFO 27831 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:20:12,818 INFO 27831 [egg-watcher:app] watcher start success
+2017-09-18 11:20:32,041 INFO 27839 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:20:32,102 INFO 27839 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:20:32,102 INFO 27839 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:20:32,566 INFO 27839 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:20:32,621 INFO 27839 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:20:32,625 INFO 27839 [egg-security] use csrf middleware
+2017-09-18 11:20:32,626 INFO 27839 [egg-security] use methodnoallow middleware
+2017-09-18 11:20:32,628 INFO 27839 [egg-security] use noopen middleware
+2017-09-18 11:20:32,628 INFO 27839 [egg-security] use nosniff middleware
+2017-09-18 11:20:32,629 INFO 27839 [egg-security] use xssProtection middleware
+2017-09-18 11:20:32,630 INFO 27839 [egg-security] use xframe middleware
+2017-09-18 11:20:32,630 INFO 27839 [egg-security] use dta middleware
+2017-09-18 11:20:32,630 INFO 27839 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:20:32,646 INFO 27839 [egg-mongoose] starting...
+2017-09-18 11:20:32,673 INFO 27839 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:20:32,674 INFO 27839 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:20:32,680 INFO 27839 [egg-watcher:app] watcher start success
+2017-09-18 11:54:02,161 INFO 28679 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 11:54:02,201 INFO 28679 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 11:54:02,201 INFO 28679 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 11:54:02,439 INFO 28679 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 11:54:02,518 INFO 28679 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 11:54:02,520 INFO 28679 [egg-security] use csrf middleware
+2017-09-18 11:54:02,521 INFO 28679 [egg-security] use methodnoallow middleware
+2017-09-18 11:54:02,522 INFO 28679 [egg-security] use noopen middleware
+2017-09-18 11:54:02,522 INFO 28679 [egg-security] use nosniff middleware
+2017-09-18 11:54:02,523 INFO 28679 [egg-security] use xssProtection middleware
+2017-09-18 11:54:02,524 INFO 28679 [egg-security] use xframe middleware
+2017-09-18 11:54:02,524 INFO 28679 [egg-security] use dta middleware
+2017-09-18 11:54:02,524 INFO 28679 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 11:54:02,540 INFO 28679 [egg-mongoose] starting...
+2017-09-18 11:54:02,564 INFO 28679 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 11:54:02,565 INFO 28679 [egg-mongoose] start successfully and server status is ok
+2017-09-18 11:54:02,569 INFO 28679 [egg-watcher:app] watcher start success
+2017-09-18 12:00:17,075 INFO 28777 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 12:00:17,117 INFO 28777 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 12:00:17,117 INFO 28777 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 12:00:17,483 INFO 28777 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 12:00:17,561 INFO 28777 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 12:00:17,564 INFO 28777 [egg-security] use csrf middleware
+2017-09-18 12:00:17,565 INFO 28777 [egg-security] use methodnoallow middleware
+2017-09-18 12:00:17,565 INFO 28777 [egg-security] use noopen middleware
+2017-09-18 12:00:17,566 INFO 28777 [egg-security] use nosniff middleware
+2017-09-18 12:00:17,567 INFO 28777 [egg-security] use xssProtection middleware
+2017-09-18 12:00:17,569 INFO 28777 [egg-security] use xframe middleware
+2017-09-18 12:00:17,569 INFO 28777 [egg-security] use dta middleware
+2017-09-18 12:00:17,569 INFO 28777 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 12:00:17,587 INFO 28777 [egg-mongoose] starting...
+2017-09-18 12:00:17,621 INFO 28777 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 12:00:17,622 INFO 28777 [egg-mongoose] start successfully and server status is ok
+2017-09-18 12:00:17,628 INFO 28777 [egg-watcher:app] watcher start success
+2017-09-18 14:38:37,136 INFO 30980 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:38:37,177 INFO 30980 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:38:37,177 INFO 30980 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:38:37,461 INFO 30980 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:38:37,534 INFO 30980 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:38:37,537 INFO 30980 [egg-security] use csrf middleware
+2017-09-18 14:38:37,538 INFO 30980 [egg-security] use methodnoallow middleware
+2017-09-18 14:38:37,538 INFO 30980 [egg-security] use noopen middleware
+2017-09-18 14:38:37,539 INFO 30980 [egg-security] use nosniff middleware
+2017-09-18 14:38:37,539 INFO 30980 [egg-security] use xssProtection middleware
+2017-09-18 14:38:37,540 INFO 30980 [egg-security] use xframe middleware
+2017-09-18 14:38:37,541 INFO 30980 [egg-security] use dta middleware
+2017-09-18 14:38:37,541 INFO 30980 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:38:37,557 INFO 30980 [egg-mongoose] starting...
+2017-09-18 14:38:37,582 INFO 30980 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:38:37,584 INFO 30980 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:38:37,587 INFO 30980 [egg-watcher:app] watcher start success
+2017-09-18 14:38:37,989 INFO 30981 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:38:38,023 INFO 30981 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:38:38,023 INFO 30981 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:38:38,253 INFO 30981 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:38:38,323 INFO 30981 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:38:38,325 INFO 30981 [egg-security] use csrf middleware
+2017-09-18 14:38:38,327 INFO 30981 [egg-security] use methodnoallow middleware
+2017-09-18 14:38:38,328 INFO 30981 [egg-security] use noopen middleware
+2017-09-18 14:38:38,328 INFO 30981 [egg-security] use nosniff middleware
+2017-09-18 14:38:38,328 INFO 30981 [egg-security] use xssProtection middleware
+2017-09-18 14:38:38,329 INFO 30981 [egg-security] use xframe middleware
+2017-09-18 14:38:38,329 INFO 30981 [egg-security] use dta middleware
+2017-09-18 14:38:38,329 INFO 30981 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:38:38,347 INFO 30981 [egg-mongoose] starting...
+2017-09-18 14:38:38,377 INFO 30981 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:38:38,379 INFO 30981 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:38:38,384 INFO 30981 [egg-watcher:app] watcher start success
+2017-09-18 14:44:31,266 INFO 31107 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:44:31,314 INFO 31107 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:44:31,314 INFO 31107 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:44:31,626 INFO 31107 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:44:31,706 INFO 31107 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:44:31,708 INFO 31107 [egg-security] use csrf middleware
+2017-09-18 14:44:31,710 INFO 31107 [egg-security] use methodnoallow middleware
+2017-09-18 14:44:31,711 INFO 31107 [egg-security] use noopen middleware
+2017-09-18 14:44:31,711 INFO 31107 [egg-security] use nosniff middleware
+2017-09-18 14:44:31,712 INFO 31107 [egg-security] use xssProtection middleware
+2017-09-18 14:44:31,712 INFO 31107 [egg-security] use xframe middleware
+2017-09-18 14:44:31,713 INFO 31107 [egg-security] use dta middleware
+2017-09-18 14:44:31,713 INFO 31107 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:44:31,730 INFO 31107 [egg-mongoose] starting...
+2017-09-18 14:44:31,763 INFO 31107 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:44:31,765 INFO 31107 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:44:31,770 INFO 31107 [egg-watcher:app] watcher start success
+2017-09-18 14:54:09,712 INFO 31268 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:54:09,754 INFO 31268 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:54:09,754 INFO 31268 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:54:09,961 INFO 31268 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:54:10,039 INFO 31268 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:54:10,042 INFO 31268 [egg-security] use csrf middleware
+2017-09-18 14:54:10,043 INFO 31268 [egg-security] use methodnoallow middleware
+2017-09-18 14:54:10,043 INFO 31268 [egg-security] use noopen middleware
+2017-09-18 14:54:10,044 INFO 31268 [egg-security] use nosniff middleware
+2017-09-18 14:54:10,044 INFO 31268 [egg-security] use xssProtection middleware
+2017-09-18 14:54:10,045 INFO 31268 [egg-security] use xframe middleware
+2017-09-18 14:54:10,046 INFO 31268 [egg-security] use dta middleware
+2017-09-18 14:54:10,046 INFO 31268 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:54:10,061 INFO 31268 [egg-mongoose] starting...
+2017-09-18 14:54:10,086 INFO 31268 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:54:10,088 INFO 31268 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:54:10,092 INFO 31268 [egg-watcher:app] watcher start success
+2017-09-18 14:56:02,627 INFO 31313 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:56:02,667 INFO 31313 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:56:02,667 INFO 31313 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:56:02,997 INFO 31313 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:56:03,080 INFO 31313 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:56:03,085 INFO 31313 [egg-security] use csrf middleware
+2017-09-18 14:56:03,087 INFO 31313 [egg-security] use methodnoallow middleware
+2017-09-18 14:56:03,087 INFO 31313 [egg-security] use noopen middleware
+2017-09-18 14:56:03,089 INFO 31313 [egg-security] use nosniff middleware
+2017-09-18 14:56:03,095 INFO 31313 [egg-security] use xssProtection middleware
+2017-09-18 14:56:03,096 INFO 31313 [egg-security] use xframe middleware
+2017-09-18 14:56:03,097 INFO 31313 [egg-security] use dta middleware
+2017-09-18 14:56:03,098 INFO 31313 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:56:03,121 INFO 31313 [egg-mongoose] starting...
+2017-09-18 14:56:03,150 INFO 31313 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:56:03,151 INFO 31313 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:56:03,156 INFO 31313 [egg-watcher:app] watcher start success
+2017-09-18 14:56:08,502 INFO 31315 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:56:08,542 INFO 31315 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:56:08,542 INFO 31315 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:56:08,868 INFO 31315 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:56:08,959 INFO 31315 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:56:08,962 INFO 31315 [egg-security] use csrf middleware
+2017-09-18 14:56:08,964 INFO 31315 [egg-security] use methodnoallow middleware
+2017-09-18 14:56:08,964 INFO 31315 [egg-security] use noopen middleware
+2017-09-18 14:56:08,965 INFO 31315 [egg-security] use nosniff middleware
+2017-09-18 14:56:08,966 INFO 31315 [egg-security] use xssProtection middleware
+2017-09-18 14:56:08,966 INFO 31315 [egg-security] use xframe middleware
+2017-09-18 14:56:08,967 INFO 31315 [egg-security] use dta middleware
+2017-09-18 14:56:08,967 INFO 31315 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:56:08,983 INFO 31315 [egg-mongoose] starting...
+2017-09-18 14:56:09,011 INFO 31315 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:56:09,014 INFO 31315 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:56:09,020 INFO 31315 [egg-watcher:app] watcher start success
+2017-09-18 14:58:15,018 INFO 31360 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:58:15,058 INFO 31360 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:58:15,058 INFO 31360 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:58:15,378 INFO 31360 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:58:15,449 INFO 31360 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:58:15,451 INFO 31360 [egg-security] use csrf middleware
+2017-09-18 14:58:15,452 INFO 31360 [egg-security] use methodnoallow middleware
+2017-09-18 14:58:15,452 INFO 31360 [egg-security] use noopen middleware
+2017-09-18 14:58:15,453 INFO 31360 [egg-security] use nosniff middleware
+2017-09-18 14:58:15,454 INFO 31360 [egg-security] use xssProtection middleware
+2017-09-18 14:58:15,455 INFO 31360 [egg-security] use xframe middleware
+2017-09-18 14:58:15,455 INFO 31360 [egg-security] use dta middleware
+2017-09-18 14:58:15,455 INFO 31360 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:58:15,475 INFO 31360 [egg-mongoose] starting...
+2017-09-18 14:58:15,500 INFO 31360 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:58:15,502 INFO 31360 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:58:15,506 INFO 31360 [egg-watcher:app] watcher start success
+2017-09-18 14:58:34,189 INFO 31364 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:58:34,227 INFO 31364 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:58:34,227 INFO 31364 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:58:34,746 INFO 31364 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:58:34,898 INFO 31364 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:58:34,901 INFO 31364 [egg-security] use csrf middleware
+2017-09-18 14:58:34,903 INFO 31364 [egg-security] use methodnoallow middleware
+2017-09-18 14:58:34,903 INFO 31364 [egg-security] use noopen middleware
+2017-09-18 14:58:34,904 INFO 31364 [egg-security] use nosniff middleware
+2017-09-18 14:58:34,904 INFO 31364 [egg-security] use xssProtection middleware
+2017-09-18 14:58:34,905 INFO 31364 [egg-security] use xframe middleware
+2017-09-18 14:58:34,905 INFO 31364 [egg-security] use dta middleware
+2017-09-18 14:58:34,905 INFO 31364 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:58:34,930 INFO 31364 [egg-mongoose] starting...
+2017-09-18 14:58:34,981 INFO 31364 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:58:34,982 INFO 31364 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:58:34,986 INFO 31364 [egg-watcher:app] watcher start success
+2017-09-18 14:59:20,325 INFO 31393 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 14:59:20,375 INFO 31393 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 14:59:20,375 INFO 31393 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 14:59:20,969 INFO 31393 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 14:59:21,064 INFO 31393 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 14:59:21,068 INFO 31393 [egg-security] use csrf middleware
+2017-09-18 14:59:21,069 INFO 31393 [egg-security] use methodnoallow middleware
+2017-09-18 14:59:21,070 INFO 31393 [egg-security] use noopen middleware
+2017-09-18 14:59:21,072 INFO 31393 [egg-security] use nosniff middleware
+2017-09-18 14:59:21,072 INFO 31393 [egg-security] use xssProtection middleware
+2017-09-18 14:59:21,073 INFO 31393 [egg-security] use xframe middleware
+2017-09-18 14:59:21,074 INFO 31393 [egg-security] use dta middleware
+2017-09-18 14:59:21,074 INFO 31393 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 14:59:21,096 INFO 31393 [egg-mongoose] starting...
+2017-09-18 14:59:21,123 INFO 31393 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 14:59:21,124 INFO 31393 [egg-mongoose] start successfully and server status is ok
+2017-09-18 14:59:21,129 INFO 31393 [egg-watcher:app] watcher start success
+2017-09-18 15:00:04,614 INFO 31410 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:00:04,654 INFO 31410 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:00:04,654 INFO 31410 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:00:04,949 INFO 31410 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:00:05,019 INFO 31410 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:00:05,022 INFO 31410 [egg-security] use csrf middleware
+2017-09-18 15:00:05,023 INFO 31410 [egg-security] use methodnoallow middleware
+2017-09-18 15:00:05,023 INFO 31410 [egg-security] use noopen middleware
+2017-09-18 15:00:05,024 INFO 31410 [egg-security] use nosniff middleware
+2017-09-18 15:00:05,024 INFO 31410 [egg-security] use xssProtection middleware
+2017-09-18 15:00:05,025 INFO 31410 [egg-security] use xframe middleware
+2017-09-18 15:00:05,026 INFO 31410 [egg-security] use dta middleware
+2017-09-18 15:00:05,026 INFO 31410 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 15:00:05,040 INFO 31410 [egg-mongoose] starting...
+2017-09-18 15:00:05,065 INFO 31410 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:00:05,067 INFO 31410 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:00:05,071 INFO 31410 [egg-watcher:app] watcher start success
+2017-09-18 15:07:16,161 INFO 31532 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:07:16,215 INFO 31532 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:07:16,215 INFO 31532 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:07:16,791 INFO 31532 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:07:16,869 INFO 31532 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:07:16,872 INFO 31532 [egg-security] use csrf middleware
+2017-09-18 15:07:16,873 INFO 31532 [egg-security] use methodnoallow middleware
+2017-09-18 15:07:16,874 INFO 31532 [egg-security] use noopen middleware
+2017-09-18 15:07:16,874 INFO 31532 [egg-security] use nosniff middleware
+2017-09-18 15:07:16,875 INFO 31532 [egg-security] use xssProtection middleware
+2017-09-18 15:07:16,876 INFO 31532 [egg-security] use xframe middleware
+2017-09-18 15:07:16,877 INFO 31532 [egg-security] use dta middleware
+2017-09-18 15:07:16,877 INFO 31532 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 15:07:16,893 INFO 31532 [egg-mongoose] starting...
+2017-09-18 15:07:17,034 INFO 31532 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:07:17,037 INFO 31532 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:07:17,048 INFO 31532 [egg-watcher:app] watcher start success
+2017-09-18 15:07:39,548 INFO 31558 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:07:39,588 INFO 31558 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:07:39,588 INFO 31558 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:07:39,890 INFO 31558 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:07:39,966 INFO 31558 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:07:39,968 INFO 31558 [egg-security] use csrf middleware
+2017-09-18 15:07:39,969 INFO 31558 [egg-security] use methodnoallow middleware
+2017-09-18 15:07:39,970 INFO 31558 [egg-security] use noopen middleware
+2017-09-18 15:07:39,970 INFO 31558 [egg-security] use nosniff middleware
+2017-09-18 15:07:39,971 INFO 31558 [egg-security] use xssProtection middleware
+2017-09-18 15:07:39,971 INFO 31558 [egg-security] use xframe middleware
+2017-09-18 15:07:39,972 INFO 31558 [egg-security] use dta middleware
+2017-09-18 15:07:39,972 INFO 31558 [egg-security] compose 7 middlewares into one security middleware
+2017-09-18 15:07:39,987 INFO 31558 [egg-mongoose] starting...
+2017-09-18 15:07:40,029 INFO 31558 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:07:40,030 INFO 31558 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:07:40,035 INFO 31558 [egg-watcher:app] watcher start success
+2017-09-18 15:10:27,955 INFO 31608 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:10:28,009 INFO 31608 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:10:28,009 INFO 31608 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:10:28,324 INFO 31608 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:10:28,396 INFO 31608 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:10:28,399 INFO 31608 [egg-security] use methodnoallow middleware
+2017-09-18 15:10:28,399 INFO 31608 [egg-security] use noopen middleware
+2017-09-18 15:10:28,400 INFO 31608 [egg-security] use nosniff middleware
+2017-09-18 15:10:28,400 INFO 31608 [egg-security] use xssProtection middleware
+2017-09-18 15:10:28,401 INFO 31608 [egg-security] use xframe middleware
+2017-09-18 15:10:28,402 INFO 31608 [egg-security] use dta middleware
+2017-09-18 15:10:28,402 INFO 31608 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:10:28,417 INFO 31608 [egg-mongoose] starting...
+2017-09-18 15:10:28,446 INFO 31608 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:10:28,448 INFO 31608 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:10:28,451 INFO 31608 [egg-watcher:app] watcher start success
+2017-09-18 15:10:29,636 INFO 31609 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:10:29,670 INFO 31609 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:10:29,670 INFO 31609 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:10:29,930 INFO 31609 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:10:29,996 INFO 31609 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:10:29,998 INFO 31609 [egg-security] use methodnoallow middleware
+2017-09-18 15:10:29,999 INFO 31609 [egg-security] use noopen middleware
+2017-09-18 15:10:29,999 INFO 31609 [egg-security] use nosniff middleware
+2017-09-18 15:10:29,999 INFO 31609 [egg-security] use xssProtection middleware
+2017-09-18 15:10:29,999 INFO 31609 [egg-security] use xframe middleware
+2017-09-18 15:10:30,000 INFO 31609 [egg-security] use dta middleware
+2017-09-18 15:10:30,000 INFO 31609 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:10:30,015 INFO 31609 [egg-mongoose] starting...
+2017-09-18 15:10:30,044 INFO 31609 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:10:30,045 INFO 31609 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:10:30,048 INFO 31609 [egg-watcher:app] watcher start success
+2017-09-18 15:13:14,977 INFO 31670 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:13:15,021 INFO 31670 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:13:15,021 INFO 31670 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:13:15,242 INFO 31670 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:13:15,322 INFO 31670 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:13:15,324 INFO 31670 [egg-security] use methodnoallow middleware
+2017-09-18 15:13:15,325 INFO 31670 [egg-security] use noopen middleware
+2017-09-18 15:13:15,326 INFO 31670 [egg-security] use nosniff middleware
+2017-09-18 15:13:15,326 INFO 31670 [egg-security] use xssProtection middleware
+2017-09-18 15:13:15,327 INFO 31670 [egg-security] use xframe middleware
+2017-09-18 15:13:15,327 INFO 31670 [egg-security] use dta middleware
+2017-09-18 15:13:15,327 INFO 31670 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:13:15,343 INFO 31670 [egg-mongoose] starting...
+2017-09-18 15:13:15,366 INFO 31670 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:13:15,367 INFO 31670 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:13:15,372 INFO 31670 [egg-watcher:app] watcher start success
+2017-09-18 15:15:27,284 INFO 31719 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:15:27,323 INFO 31719 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:15:27,323 INFO 31719 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:15:27,721 INFO 31719 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:15:27,801 INFO 31719 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:15:27,804 INFO 31719 [egg-security] use methodnoallow middleware
+2017-09-18 15:15:27,805 INFO 31719 [egg-security] use noopen middleware
+2017-09-18 15:15:27,805 INFO 31719 [egg-security] use nosniff middleware
+2017-09-18 15:15:27,806 INFO 31719 [egg-security] use xssProtection middleware
+2017-09-18 15:15:27,806 INFO 31719 [egg-security] use xframe middleware
+2017-09-18 15:15:27,807 INFO 31719 [egg-security] use dta middleware
+2017-09-18 15:15:27,807 INFO 31719 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:15:27,827 INFO 31719 [egg-mongoose] starting...
+2017-09-18 15:15:27,855 INFO 31719 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:15:27,857 INFO 31719 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:15:27,865 INFO 31719 [egg-watcher:app] watcher start success
+2017-09-18 15:16:29,138 INFO 31739 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:16:29,182 INFO 31739 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:16:29,182 INFO 31739 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:16:29,519 INFO 31739 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:16:29,588 INFO 31739 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:16:29,590 INFO 31739 [egg-security] use methodnoallow middleware
+2017-09-18 15:16:29,592 INFO 31739 [egg-security] use noopen middleware
+2017-09-18 15:16:29,593 INFO 31739 [egg-security] use nosniff middleware
+2017-09-18 15:16:29,593 INFO 31739 [egg-security] use xssProtection middleware
+2017-09-18 15:16:29,595 INFO 31739 [egg-security] use xframe middleware
+2017-09-18 15:16:29,595 INFO 31739 [egg-security] use dta middleware
+2017-09-18 15:16:29,595 INFO 31739 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:16:29,614 INFO 31739 [egg-mongoose] starting...
+2017-09-18 15:16:29,646 INFO 31739 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:16:29,647 INFO 31739 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:16:29,651 INFO 31739 [egg-watcher:app] watcher start success
+2017-09-18 15:19:39,059 INFO 31817 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:19:39,097 INFO 31817 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:19:39,097 INFO 31817 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:19:39,407 INFO 31817 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:19:39,497 INFO 31817 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:19:39,504 INFO 31817 [egg-security] use methodnoallow middleware
+2017-09-18 15:19:39,505 INFO 31817 [egg-security] use noopen middleware
+2017-09-18 15:19:39,505 INFO 31817 [egg-security] use nosniff middleware
+2017-09-18 15:19:39,506 INFO 31817 [egg-security] use xssProtection middleware
+2017-09-18 15:19:39,506 INFO 31817 [egg-security] use xframe middleware
+2017-09-18 15:19:39,507 INFO 31817 [egg-security] use dta middleware
+2017-09-18 15:19:39,507 INFO 31817 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:19:39,527 INFO 31817 [egg-mongoose] starting...
+2017-09-18 15:19:39,559 INFO 31817 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:19:39,561 INFO 31817 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:19:39,564 INFO 31817 [egg-watcher:app] watcher start success
+2017-09-18 15:19:48,419 INFO 31825 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:19:48,449 INFO 31825 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:19:48,449 INFO 31825 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:19:48,648 INFO 31825 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:19:48,708 INFO 31825 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:19:48,711 INFO 31825 [egg-security] use methodnoallow middleware
+2017-09-18 15:19:48,712 INFO 31825 [egg-security] use noopen middleware
+2017-09-18 15:19:48,712 INFO 31825 [egg-security] use nosniff middleware
+2017-09-18 15:19:48,712 INFO 31825 [egg-security] use xssProtection middleware
+2017-09-18 15:19:48,712 INFO 31825 [egg-security] use xframe middleware
+2017-09-18 15:19:48,713 INFO 31825 [egg-security] use dta middleware
+2017-09-18 15:19:48,713 INFO 31825 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:19:48,729 INFO 31825 [egg-mongoose] starting...
+2017-09-18 15:19:48,753 INFO 31825 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:19:48,754 INFO 31825 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:19:48,759 INFO 31825 [egg-watcher:app] watcher start success
+2017-09-18 15:20:41,953 INFO 31843 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:20:41,991 INFO 31843 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:20:41,991 INFO 31843 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:20:42,322 INFO 31843 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:20:42,406 INFO 31843 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:20:42,409 INFO 31843 [egg-security] use methodnoallow middleware
+2017-09-18 15:20:42,411 INFO 31843 [egg-security] use noopen middleware
+2017-09-18 15:20:42,412 INFO 31843 [egg-security] use nosniff middleware
+2017-09-18 15:20:42,413 INFO 31843 [egg-security] use xssProtection middleware
+2017-09-18 15:20:42,413 INFO 31843 [egg-security] use xframe middleware
+2017-09-18 15:20:42,414 INFO 31843 [egg-security] use dta middleware
+2017-09-18 15:20:42,414 INFO 31843 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:20:42,430 INFO 31843 [egg-mongoose] starting...
+2017-09-18 15:20:42,454 INFO 31843 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:20:42,455 INFO 31843 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:20:42,462 INFO 31843 [egg-watcher:app] watcher start success
+2017-09-18 15:21:34,492 INFO 31856 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:21:34,523 INFO 31856 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:21:34,523 INFO 31856 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:21:34,728 INFO 31856 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:21:34,796 INFO 31856 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:21:34,799 INFO 31856 [egg-security] use methodnoallow middleware
+2017-09-18 15:21:34,799 INFO 31856 [egg-security] use noopen middleware
+2017-09-18 15:21:34,799 INFO 31856 [egg-security] use nosniff middleware
+2017-09-18 15:21:34,800 INFO 31856 [egg-security] use xssProtection middleware
+2017-09-18 15:21:34,800 INFO 31856 [egg-security] use xframe middleware
+2017-09-18 15:21:34,801 INFO 31856 [egg-security] use dta middleware
+2017-09-18 15:21:34,801 INFO 31856 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:21:34,817 INFO 31856 [egg-mongoose] starting...
+2017-09-18 15:21:34,845 INFO 31856 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:21:34,846 INFO 31856 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:21:34,851 INFO 31856 [egg-watcher:app] watcher start success
+2017-09-18 15:22:02,950 INFO 31864 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:22:02,984 INFO 31864 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:22:02,984 INFO 31864 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:22:03,236 INFO 31864 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:22:03,302 INFO 31864 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:22:03,304 INFO 31864 [egg-security] use methodnoallow middleware
+2017-09-18 15:22:03,305 INFO 31864 [egg-security] use noopen middleware
+2017-09-18 15:22:03,305 INFO 31864 [egg-security] use nosniff middleware
+2017-09-18 15:22:03,306 INFO 31864 [egg-security] use xssProtection middleware
+2017-09-18 15:22:03,307 INFO 31864 [egg-security] use xframe middleware
+2017-09-18 15:22:03,307 INFO 31864 [egg-security] use dta middleware
+2017-09-18 15:22:03,307 INFO 31864 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:22:03,321 INFO 31864 [egg-mongoose] starting...
+2017-09-18 15:22:03,349 INFO 31864 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:22:03,351 INFO 31864 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:22:03,354 INFO 31864 [egg-watcher:app] watcher start success
+2017-09-18 15:40:29,972 INFO 32211 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:40:30,012 INFO 32211 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:40:30,012 INFO 32211 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:40:30,433 INFO 32211 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:40:30,668 INFO 32211 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:40:30,672 INFO 32211 [egg-security] use methodnoallow middleware
+2017-09-18 15:40:30,672 INFO 32211 [egg-security] use noopen middleware
+2017-09-18 15:40:30,673 INFO 32211 [egg-security] use nosniff middleware
+2017-09-18 15:40:30,675 INFO 32211 [egg-security] use xssProtection middleware
+2017-09-18 15:40:30,677 INFO 32211 [egg-security] use xframe middleware
+2017-09-18 15:40:30,678 INFO 32211 [egg-security] use dta middleware
+2017-09-18 15:40:30,679 INFO 32211 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:40:30,700 INFO 32211 [egg-mongoose] starting...
+2017-09-18 15:40:30,731 INFO 32211 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:40:30,733 INFO 32211 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:40:30,739 INFO 32211 [egg-watcher:app] watcher start success
+2017-09-18 15:40:36,162 INFO 32217 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:40:36,194 INFO 32217 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:40:36,194 INFO 32217 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:40:36,395 INFO 32217 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:40:36,461 INFO 32217 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:40:36,465 INFO 32217 [egg-security] use methodnoallow middleware
+2017-09-18 15:40:36,465 INFO 32217 [egg-security] use noopen middleware
+2017-09-18 15:40:36,466 INFO 32217 [egg-security] use nosniff middleware
+2017-09-18 15:40:36,466 INFO 32217 [egg-security] use xssProtection middleware
+2017-09-18 15:40:36,467 INFO 32217 [egg-security] use xframe middleware
+2017-09-18 15:40:36,467 INFO 32217 [egg-security] use dta middleware
+2017-09-18 15:40:36,467 INFO 32217 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:40:36,485 INFO 32217 [egg-mongoose] starting...
+2017-09-18 15:40:36,508 INFO 32217 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:40:36,510 INFO 32217 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:40:36,514 INFO 32217 [egg-watcher:app] watcher start success
+2017-09-18 15:48:26,763 INFO 32355 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:48:26,803 INFO 32355 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:48:26,803 INFO 32355 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:48:27,158 INFO 32355 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:48:27,245 INFO 32355 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:48:27,248 INFO 32355 [egg-security] use methodnoallow middleware
+2017-09-18 15:48:27,248 INFO 32355 [egg-security] use noopen middleware
+2017-09-18 15:48:27,249 INFO 32355 [egg-security] use nosniff middleware
+2017-09-18 15:48:27,249 INFO 32355 [egg-security] use xssProtection middleware
+2017-09-18 15:48:27,250 INFO 32355 [egg-security] use xframe middleware
+2017-09-18 15:48:27,251 INFO 32355 [egg-security] use dta middleware
+2017-09-18 15:48:27,251 INFO 32355 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:48:27,272 INFO 32355 [egg-mongoose] starting...
+2017-09-18 15:48:27,318 INFO 32355 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:48:27,319 INFO 32355 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:48:27,325 INFO 32355 [egg-watcher:app] watcher start success
+2017-09-18 15:59:31,412 INFO 32534 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 15:59:31,452 INFO 32534 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 15:59:31,452 INFO 32534 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 15:59:31,794 INFO 32534 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 15:59:31,874 INFO 32534 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 15:59:31,877 INFO 32534 [egg-security] use methodnoallow middleware
+2017-09-18 15:59:31,878 INFO 32534 [egg-security] use noopen middleware
+2017-09-18 15:59:31,878 INFO 32534 [egg-security] use nosniff middleware
+2017-09-18 15:59:31,879 INFO 32534 [egg-security] use xssProtection middleware
+2017-09-18 15:59:31,879 INFO 32534 [egg-security] use xframe middleware
+2017-09-18 15:59:31,881 INFO 32534 [egg-security] use dta middleware
+2017-09-18 15:59:31,881 INFO 32534 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 15:59:31,898 INFO 32534 [egg-mongoose] starting...
+2017-09-18 15:59:31,926 INFO 32534 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 15:59:31,928 INFO 32534 [egg-mongoose] start successfully and server status is ok
+2017-09-18 15:59:31,932 INFO 32534 [egg-watcher:app] watcher start success
+2017-09-18 16:06:53,671 INFO 32669 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:06:53,715 INFO 32669 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:06:53,715 INFO 32669 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:06:54,063 INFO 32669 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:06:54,161 INFO 32669 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:06:54,164 INFO 32669 [egg-security] use methodnoallow middleware
+2017-09-18 16:06:54,165 INFO 32669 [egg-security] use noopen middleware
+2017-09-18 16:06:54,165 INFO 32669 [egg-security] use nosniff middleware
+2017-09-18 16:06:54,166 INFO 32669 [egg-security] use xssProtection middleware
+2017-09-18 16:06:54,166 INFO 32669 [egg-security] use xframe middleware
+2017-09-18 16:06:54,167 INFO 32669 [egg-security] use dta middleware
+2017-09-18 16:06:54,167 INFO 32669 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:06:54,187 INFO 32669 [egg-mongoose] starting...
+2017-09-18 16:06:54,213 INFO 32669 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:06:54,214 INFO 32669 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:06:54,219 INFO 32669 [egg-watcher:app] watcher start success
+2017-09-18 16:07:50,527 INFO 32694 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:07:50,565 INFO 32694 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:07:50,565 INFO 32694 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:07:50,951 INFO 32694 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:07:51,036 INFO 32694 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:07:51,039 INFO 32694 [egg-security] use methodnoallow middleware
+2017-09-18 16:07:51,040 INFO 32694 [egg-security] use noopen middleware
+2017-09-18 16:07:51,040 INFO 32694 [egg-security] use nosniff middleware
+2017-09-18 16:07:51,041 INFO 32694 [egg-security] use xssProtection middleware
+2017-09-18 16:07:51,042 INFO 32694 [egg-security] use xframe middleware
+2017-09-18 16:07:51,042 INFO 32694 [egg-security] use dta middleware
+2017-09-18 16:07:51,042 INFO 32694 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:07:51,064 INFO 32694 [egg-mongoose] starting...
+2017-09-18 16:07:51,089 INFO 32694 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:07:51,091 INFO 32694 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:07:51,097 INFO 32694 [egg-watcher:app] watcher start success
+2017-09-18 16:48:04,838 INFO 33393 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:48:04,877 INFO 33393 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:48:04,878 INFO 33393 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:48:05,103 INFO 33393 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:48:05,183 INFO 33393 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:48:05,186 INFO 33393 [egg-security] use methodnoallow middleware
+2017-09-18 16:48:05,187 INFO 33393 [egg-security] use noopen middleware
+2017-09-18 16:48:05,187 INFO 33393 [egg-security] use nosniff middleware
+2017-09-18 16:48:05,188 INFO 33393 [egg-security] use xssProtection middleware
+2017-09-18 16:48:05,188 INFO 33393 [egg-security] use xframe middleware
+2017-09-18 16:48:05,189 INFO 33393 [egg-security] use dta middleware
+2017-09-18 16:48:05,189 INFO 33393 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:48:05,204 INFO 33393 [egg-mongoose] starting...
+2017-09-18 16:48:05,239 INFO 33393 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:48:05,241 INFO 33393 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:48:05,245 INFO 33393 [egg-watcher:app] watcher start success
+2017-09-18 16:51:49,206 INFO 33454 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:51:49,247 INFO 33454 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:51:49,247 INFO 33454 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:51:49,669 INFO 33454 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:51:49,754 INFO 33454 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:51:49,757 INFO 33454 [egg-security] use methodnoallow middleware
+2017-09-18 16:51:49,758 INFO 33454 [egg-security] use noopen middleware
+2017-09-18 16:51:49,758 INFO 33454 [egg-security] use nosniff middleware
+2017-09-18 16:51:49,759 INFO 33454 [egg-security] use xssProtection middleware
+2017-09-18 16:51:49,760 INFO 33454 [egg-security] use xframe middleware
+2017-09-18 16:51:49,761 INFO 33454 [egg-security] use dta middleware
+2017-09-18 16:51:49,761 INFO 33454 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:51:49,780 INFO 33454 [egg-mongoose] starting...
+2017-09-18 16:51:49,808 INFO 33454 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:51:49,811 INFO 33454 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:51:49,815 INFO 33454 [egg-watcher:app] watcher start success
+2017-09-18 16:52:11,042 INFO 33460 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:52:11,079 INFO 33460 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:52:11,079 INFO 33460 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:52:11,367 INFO 33460 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:52:11,420 INFO 33460 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:52:11,422 INFO 33460 [egg-security] use methodnoallow middleware
+2017-09-18 16:52:11,422 INFO 33460 [egg-security] use noopen middleware
+2017-09-18 16:52:11,423 INFO 33460 [egg-security] use nosniff middleware
+2017-09-18 16:52:11,423 INFO 33460 [egg-security] use xssProtection middleware
+2017-09-18 16:52:11,423 INFO 33460 [egg-security] use xframe middleware
+2017-09-18 16:52:11,424 INFO 33460 [egg-security] use dta middleware
+2017-09-18 16:52:11,424 INFO 33460 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:52:11,437 INFO 33460 [egg-mongoose] starting...
+2017-09-18 16:52:11,459 INFO 33460 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:52:11,461 INFO 33460 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:52:11,466 INFO 33460 [egg-watcher:app] watcher start success
+2017-09-18 16:52:59,073 INFO 33488 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:52:59,112 INFO 33488 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:52:59,112 INFO 33488 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:52:59,337 INFO 33488 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:52:59,414 INFO 33488 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:52:59,416 INFO 33488 [egg-security] use methodnoallow middleware
+2017-09-18 16:52:59,417 INFO 33488 [egg-security] use noopen middleware
+2017-09-18 16:52:59,418 INFO 33488 [egg-security] use nosniff middleware
+2017-09-18 16:52:59,418 INFO 33488 [egg-security] use xssProtection middleware
+2017-09-18 16:52:59,419 INFO 33488 [egg-security] use xframe middleware
+2017-09-18 16:52:59,419 INFO 33488 [egg-security] use dta middleware
+2017-09-18 16:52:59,420 INFO 33488 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:52:59,435 INFO 33488 [egg-mongoose] starting...
+2017-09-18 16:52:59,462 INFO 33488 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:52:59,464 INFO 33488 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:52:59,468 INFO 33488 [egg-watcher:app] watcher start success
+2017-09-18 16:53:12,246 INFO 33498 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:53:12,282 INFO 33498 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:53:12,282 INFO 33498 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:53:12,499 INFO 33498 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:53:12,576 INFO 33498 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:53:12,579 INFO 33498 [egg-security] use methodnoallow middleware
+2017-09-18 16:53:12,579 INFO 33498 [egg-security] use noopen middleware
+2017-09-18 16:53:12,580 INFO 33498 [egg-security] use nosniff middleware
+2017-09-18 16:53:12,581 INFO 33498 [egg-security] use xssProtection middleware
+2017-09-18 16:53:12,581 INFO 33498 [egg-security] use xframe middleware
+2017-09-18 16:53:12,582 INFO 33498 [egg-security] use dta middleware
+2017-09-18 16:53:12,582 INFO 33498 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:53:12,599 INFO 33498 [egg-mongoose] starting...
+2017-09-18 16:53:12,622 INFO 33498 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:53:12,623 INFO 33498 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:53:12,628 INFO 33498 [egg-watcher:app] watcher start success
+2017-09-18 16:53:45,256 INFO 33505 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:53:45,335 INFO 33505 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:53:45,335 INFO 33505 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:53:45,649 INFO 33505 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:53:45,732 INFO 33505 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:53:45,735 INFO 33505 [egg-security] use methodnoallow middleware
+2017-09-18 16:53:45,736 INFO 33505 [egg-security] use noopen middleware
+2017-09-18 16:53:45,736 INFO 33505 [egg-security] use nosniff middleware
+2017-09-18 16:53:45,737 INFO 33505 [egg-security] use xssProtection middleware
+2017-09-18 16:53:45,737 INFO 33505 [egg-security] use xframe middleware
+2017-09-18 16:53:45,738 INFO 33505 [egg-security] use dta middleware
+2017-09-18 16:53:45,738 INFO 33505 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:53:45,755 INFO 33505 [egg-mongoose] starting...
+2017-09-18 16:53:45,785 INFO 33505 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:53:45,787 INFO 33505 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:53:45,791 INFO 33505 [egg-watcher:app] watcher start success
+2017-09-18 16:57:13,635 INFO 33554 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 16:57:13,700 INFO 33554 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 16:57:13,700 INFO 33554 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 16:57:14,070 INFO 33554 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 16:57:14,148 INFO 33554 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 16:57:14,152 INFO 33554 [egg-security] use methodnoallow middleware
+2017-09-18 16:57:14,152 INFO 33554 [egg-security] use noopen middleware
+2017-09-18 16:57:14,153 INFO 33554 [egg-security] use nosniff middleware
+2017-09-18 16:57:14,153 INFO 33554 [egg-security] use xssProtection middleware
+2017-09-18 16:57:14,154 INFO 33554 [egg-security] use xframe middleware
+2017-09-18 16:57:14,155 INFO 33554 [egg-security] use dta middleware
+2017-09-18 16:57:14,155 INFO 33554 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 16:57:14,183 INFO 33554 [egg-mongoose] starting...
+2017-09-18 16:57:14,207 INFO 33554 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 16:57:14,209 INFO 33554 [egg-mongoose] start successfully and server status is ok
+2017-09-18 16:57:14,213 INFO 33554 [egg-watcher:app] watcher start success
+2017-09-18 17:08:19,495 INFO 33718 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 17:08:19,537 INFO 33718 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 17:08:19,538 INFO 33718 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 17:08:19,915 INFO 33718 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 17:08:19,996 INFO 33718 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 17:08:19,999 INFO 33718 [egg-security] use methodnoallow middleware
+2017-09-18 17:08:20,000 INFO 33718 [egg-security] use noopen middleware
+2017-09-18 17:08:20,000 INFO 33718 [egg-security] use nosniff middleware
+2017-09-18 17:08:20,001 INFO 33718 [egg-security] use xssProtection middleware
+2017-09-18 17:08:20,002 INFO 33718 [egg-security] use xframe middleware
+2017-09-18 17:08:20,002 INFO 33718 [egg-security] use dta middleware
+2017-09-18 17:08:20,002 INFO 33718 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 17:08:20,025 INFO 33718 [egg-mongoose] starting...
+2017-09-18 17:08:20,058 INFO 33718 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 17:08:20,060 INFO 33718 [egg-mongoose] start successfully and server status is ok
+2017-09-18 17:08:20,064 INFO 33718 [egg-watcher:app] watcher start success
+2017-09-18 17:35:52,093 INFO 34066 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 17:35:52,138 INFO 34066 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 17:35:52,138 INFO 34066 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 17:35:52,802 INFO 34066 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 17:35:52,902 INFO 34066 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 17:35:52,907 INFO 34066 [egg-security] use methodnoallow middleware
+2017-09-18 17:35:52,907 INFO 34066 [egg-security] use noopen middleware
+2017-09-18 17:35:52,908 INFO 34066 [egg-security] use nosniff middleware
+2017-09-18 17:35:52,909 INFO 34066 [egg-security] use xssProtection middleware
+2017-09-18 17:35:52,909 INFO 34066 [egg-security] use xframe middleware
+2017-09-18 17:35:52,910 INFO 34066 [egg-security] use dta middleware
+2017-09-18 17:35:52,910 INFO 34066 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 17:35:52,929 INFO 34066 [egg-mongoose] starting...
+2017-09-18 17:35:52,953 INFO 34066 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 17:35:52,956 INFO 34066 [egg-mongoose] start successfully and server status is ok
+2017-09-18 17:35:52,962 INFO 34066 [egg-watcher:app] watcher start success
+2017-09-18 18:12:23,948 INFO 34633 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:12:23,990 INFO 34633 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:12:23,990 INFO 34633 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:12:24,342 INFO 34633 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:12:24,417 INFO 34633 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:12:24,420 INFO 34633 [egg-security] use methodnoallow middleware
+2017-09-18 18:12:24,420 INFO 34633 [egg-security] use noopen middleware
+2017-09-18 18:12:24,421 INFO 34633 [egg-security] use nosniff middleware
+2017-09-18 18:12:24,422 INFO 34633 [egg-security] use xssProtection middleware
+2017-09-18 18:12:24,422 INFO 34633 [egg-security] use xframe middleware
+2017-09-18 18:12:24,423 INFO 34633 [egg-security] use dta middleware
+2017-09-18 18:12:24,423 INFO 34633 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:12:24,454 INFO 34633 [egg-mongoose] starting...
+2017-09-18 18:12:24,479 INFO 34633 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:12:24,480 INFO 34633 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:12:24,485 INFO 34633 [egg-watcher:app] watcher start success
+2017-09-18 18:13:00,077 INFO 34689 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:13:00,115 INFO 34689 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:13:00,115 INFO 34689 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:13:00,493 INFO 34689 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:13:00,583 INFO 34689 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:13:00,587 INFO 34689 [egg-security] use methodnoallow middleware
+2017-09-18 18:13:00,588 INFO 34689 [egg-security] use noopen middleware
+2017-09-18 18:13:00,589 INFO 34689 [egg-security] use nosniff middleware
+2017-09-18 18:13:00,590 INFO 34689 [egg-security] use xssProtection middleware
+2017-09-18 18:13:00,591 INFO 34689 [egg-security] use xframe middleware
+2017-09-18 18:13:00,593 INFO 34689 [egg-security] use dta middleware
+2017-09-18 18:13:00,593 INFO 34689 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:13:00,611 INFO 34689 [egg-mongoose] starting...
+2017-09-18 18:13:00,639 INFO 34689 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:13:00,640 INFO 34689 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:13:00,644 INFO 34689 [egg-watcher:app] watcher start success
+2017-09-18 18:15:08,853 INFO 34735 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:15:08,904 INFO 34735 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:15:08,904 INFO 34735 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:15:09,264 INFO 34735 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:15:09,338 INFO 34735 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:15:09,341 INFO 34735 [egg-security] use methodnoallow middleware
+2017-09-18 18:15:09,341 INFO 34735 [egg-security] use noopen middleware
+2017-09-18 18:15:09,342 INFO 34735 [egg-security] use nosniff middleware
+2017-09-18 18:15:09,343 INFO 34735 [egg-security] use xssProtection middleware
+2017-09-18 18:15:09,343 INFO 34735 [egg-security] use xframe middleware
+2017-09-18 18:15:09,344 INFO 34735 [egg-security] use dta middleware
+2017-09-18 18:15:09,344 INFO 34735 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:15:09,357 INFO 34735 [egg-mongoose] starting...
+2017-09-18 18:15:09,386 INFO 34735 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:15:09,387 INFO 34735 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:15:09,391 INFO 34735 [egg-watcher:app] watcher start success
+2017-09-18 18:15:09,809 INFO 34736 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:15:09,846 INFO 34736 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:15:09,846 INFO 34736 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:15:10,089 INFO 34736 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:15:10,182 INFO 34736 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:15:10,189 INFO 34736 [egg-security] use methodnoallow middleware
+2017-09-18 18:15:10,190 INFO 34736 [egg-security] use noopen middleware
+2017-09-18 18:15:10,190 INFO 34736 [egg-security] use nosniff middleware
+2017-09-18 18:15:10,191 INFO 34736 [egg-security] use xssProtection middleware
+2017-09-18 18:15:10,192 INFO 34736 [egg-security] use xframe middleware
+2017-09-18 18:15:10,195 INFO 34736 [egg-security] use dta middleware
+2017-09-18 18:15:10,195 INFO 34736 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:15:10,234 INFO 34736 [egg-mongoose] starting...
+2017-09-18 18:15:10,268 INFO 34736 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:15:10,270 INFO 34736 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:15:10,275 INFO 34736 [egg-watcher:app] watcher start success
+2017-09-18 18:15:31,564 INFO 34741 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:15:31,603 INFO 34741 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:15:31,603 INFO 34741 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:15:31,991 INFO 34741 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:15:32,073 INFO 34741 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:15:32,101 INFO 34741 [egg-security] use methodnoallow middleware
+2017-09-18 18:15:32,104 INFO 34741 [egg-security] use noopen middleware
+2017-09-18 18:15:32,111 INFO 34741 [egg-security] use nosniff middleware
+2017-09-18 18:15:32,115 INFO 34741 [egg-security] use xssProtection middleware
+2017-09-18 18:15:32,116 INFO 34741 [egg-security] use xframe middleware
+2017-09-18 18:15:32,116 INFO 34741 [egg-security] use dta middleware
+2017-09-18 18:15:32,117 INFO 34741 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:15:32,212 INFO 34741 [egg-mongoose] starting...
+2017-09-18 18:15:32,266 INFO 34741 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:15:32,278 INFO 34741 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:15:32,290 INFO 34741 [egg-watcher:app] watcher start success
+2017-09-18 18:19:12,495 INFO 34794 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:19:12,534 INFO 34794 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:19:12,534 INFO 34794 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:19:12,830 INFO 34794 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:19:12,904 INFO 34794 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:19:12,906 INFO 34794 [egg-security] use methodnoallow middleware
+2017-09-18 18:19:12,907 INFO 34794 [egg-security] use noopen middleware
+2017-09-18 18:19:12,907 INFO 34794 [egg-security] use nosniff middleware
+2017-09-18 18:19:12,908 INFO 34794 [egg-security] use xssProtection middleware
+2017-09-18 18:19:12,909 INFO 34794 [egg-security] use xframe middleware
+2017-09-18 18:19:12,909 INFO 34794 [egg-security] use dta middleware
+2017-09-18 18:19:12,909 INFO 34794 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:19:12,927 INFO 34794 [egg-mongoose] starting...
+2017-09-18 18:19:12,954 INFO 34794 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:19:12,957 INFO 34794 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:19:12,963 INFO 34794 [egg-watcher:app] watcher start success
+2017-09-18 18:19:15,811 INFO 34796 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:19:15,844 INFO 34796 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:19:15,844 INFO 34796 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:19:16,053 INFO 34796 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:19:16,118 INFO 34796 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:19:16,121 INFO 34796 [egg-security] use methodnoallow middleware
+2017-09-18 18:19:16,121 INFO 34796 [egg-security] use noopen middleware
+2017-09-18 18:19:16,121 INFO 34796 [egg-security] use nosniff middleware
+2017-09-18 18:19:16,122 INFO 34796 [egg-security] use xssProtection middleware
+2017-09-18 18:19:16,122 INFO 34796 [egg-security] use xframe middleware
+2017-09-18 18:19:16,122 INFO 34796 [egg-security] use dta middleware
+2017-09-18 18:19:16,122 INFO 34796 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:19:16,137 INFO 34796 [egg-mongoose] starting...
+2017-09-18 18:19:16,159 INFO 34796 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:19:16,160 INFO 34796 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:19:16,165 INFO 34796 [egg-watcher:app] watcher start success
+2017-09-18 18:19:49,816 INFO 34815 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:19:49,847 INFO 34815 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:19:49,848 INFO 34815 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:19:50,072 INFO 34815 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:19:50,143 INFO 34815 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:19:50,145 INFO 34815 [egg-security] use methodnoallow middleware
+2017-09-18 18:19:50,145 INFO 34815 [egg-security] use noopen middleware
+2017-09-18 18:19:50,146 INFO 34815 [egg-security] use nosniff middleware
+2017-09-18 18:19:50,146 INFO 34815 [egg-security] use xssProtection middleware
+2017-09-18 18:19:50,147 INFO 34815 [egg-security] use xframe middleware
+2017-09-18 18:19:50,147 INFO 34815 [egg-security] use dta middleware
+2017-09-18 18:19:50,147 INFO 34815 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:19:50,163 INFO 34815 [egg-mongoose] starting...
+2017-09-18 18:19:50,188 INFO 34815 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:19:50,190 INFO 34815 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:19:50,195 INFO 34815 [egg-watcher:app] watcher start success
+2017-09-18 18:19:58,638 INFO 34818 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 18:19:58,674 INFO 34818 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 18:19:58,674 INFO 34818 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 18:19:58,905 INFO 34818 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 18:19:58,971 INFO 34818 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 18:19:58,975 INFO 34818 [egg-security] use methodnoallow middleware
+2017-09-18 18:19:58,975 INFO 34818 [egg-security] use noopen middleware
+2017-09-18 18:19:58,976 INFO 34818 [egg-security] use nosniff middleware
+2017-09-18 18:19:58,976 INFO 34818 [egg-security] use xssProtection middleware
+2017-09-18 18:19:58,976 INFO 34818 [egg-security] use xframe middleware
+2017-09-18 18:19:58,976 INFO 34818 [egg-security] use dta middleware
+2017-09-18 18:19:58,977 INFO 34818 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 18:19:58,990 INFO 34818 [egg-mongoose] starting...
+2017-09-18 18:19:59,015 INFO 34818 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 18:19:59,016 INFO 34818 [egg-mongoose] start successfully and server status is ok
+2017-09-18 18:19:59,020 INFO 34818 [egg-watcher:app] watcher start success
+2017-09-18 19:02:49,755 INFO 35394 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 19:02:49,794 INFO 35394 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 19:02:49,795 INFO 35394 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 19:02:50,110 INFO 35394 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 19:02:50,224 INFO 35394 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 19:02:50,226 INFO 35394 [egg-security] use methodnoallow middleware
+2017-09-18 19:02:50,227 INFO 35394 [egg-security] use noopen middleware
+2017-09-18 19:02:50,228 INFO 35394 [egg-security] use nosniff middleware
+2017-09-18 19:02:50,229 INFO 35394 [egg-security] use xssProtection middleware
+2017-09-18 19:02:50,230 INFO 35394 [egg-security] use xframe middleware
+2017-09-18 19:02:50,232 INFO 35394 [egg-security] use dta middleware
+2017-09-18 19:02:50,232 INFO 35394 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 19:02:50,255 INFO 35394 [egg-mongoose] starting...
+2017-09-18 19:02:50,290 INFO 35394 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 19:02:50,291 INFO 35394 [egg-mongoose] start successfully and server status is ok
+2017-09-18 19:02:50,297 INFO 35394 [egg-watcher:app] watcher start success
+2017-09-18 19:04:52,333 INFO 35394 [egg-view-nunjucks] loading templates from ["/Users/apple/siguang.liu/Example/food/food_node/app/view"]
+2017-09-18 19:07:46,335 INFO 35509 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 19:07:46,377 INFO 35509 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 19:07:46,377 INFO 35509 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 19:07:46,725 INFO 35509 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 19:07:46,800 INFO 35509 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 19:07:46,803 INFO 35509 [egg-security] use methodnoallow middleware
+2017-09-18 19:07:46,804 INFO 35509 [egg-security] use noopen middleware
+2017-09-18 19:07:46,805 INFO 35509 [egg-security] use nosniff middleware
+2017-09-18 19:07:46,805 INFO 35509 [egg-security] use xssProtection middleware
+2017-09-18 19:07:46,806 INFO 35509 [egg-security] use xframe middleware
+2017-09-18 19:07:46,807 INFO 35509 [egg-security] use dta middleware
+2017-09-18 19:07:46,807 INFO 35509 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 19:07:46,826 INFO 35509 [egg-mongoose] starting...
+2017-09-18 19:07:46,853 INFO 35509 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 19:07:46,855 INFO 35509 [egg-mongoose] start successfully and server status is ok
+2017-09-18 19:07:46,859 INFO 35509 [egg-watcher:app] watcher start success
+2017-09-18 19:07:53,655 INFO 35509 [egg-view-nunjucks] loading templates from ["/Users/apple/siguang.liu/Example/food/food_node/app/view"]
+2017-09-18 19:12:56,975 INFO 35619 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 19:12:57,017 INFO 35619 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 19:12:57,017 INFO 35619 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 19:12:57,332 INFO 35619 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 19:12:57,415 INFO 35619 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 19:12:57,417 INFO 35619 [egg-security] use methodnoallow middleware
+2017-09-18 19:12:57,418 INFO 35619 [egg-security] use noopen middleware
+2017-09-18 19:12:57,418 INFO 35619 [egg-security] use nosniff middleware
+2017-09-18 19:12:57,419 INFO 35619 [egg-security] use xssProtection middleware
+2017-09-18 19:12:57,420 INFO 35619 [egg-security] use xframe middleware
+2017-09-18 19:12:57,420 INFO 35619 [egg-security] use dta middleware
+2017-09-18 19:12:57,420 INFO 35619 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 19:12:57,439 INFO 35619 [egg-mongoose] starting...
+2017-09-18 19:12:57,463 INFO 35619 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 19:12:57,464 INFO 35619 [egg-mongoose] start successfully and server status is ok
+2017-09-18 19:12:57,468 INFO 35619 [egg-watcher:app] watcher start success
+2017-09-18 19:12:58,546 INFO 35620 [egg:logger] init all loggers with options: {"dir":"/Users/apple/siguang.liu/Example/food/food_node/logs/food_node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"food_node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-18 19:12:58,581 INFO 35620 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-18 19:12:58,581 INFO 35620 [egg-schedule]: register schedule egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-18 19:12:58,821 INFO 35620 [egg-mongoose] connecting mongodb://127.0.0.1:27017/food_node_database
+2017-09-18 19:12:58,906 INFO 35620 [egg-static] starting static serve /public/ -> /Users/apple/siguang.liu/Example/food/food_node/app/public
+2017-09-18 19:12:58,909 INFO 35620 [egg-security] use methodnoallow middleware
+2017-09-18 19:12:58,909 INFO 35620 [egg-security] use noopen middleware
+2017-09-18 19:12:58,909 INFO 35620 [egg-security] use nosniff middleware
+2017-09-18 19:12:58,910 INFO 35620 [egg-security] use xssProtection middleware
+2017-09-18 19:12:58,910 INFO 35620 [egg-security] use xframe middleware
+2017-09-18 19:12:58,911 INFO 35620 [egg-security] use dta middleware
+2017-09-18 19:12:58,911 INFO 35620 [egg-security] compose 6 middlewares into one security middleware
+2017-09-18 19:12:58,939 INFO 35620 [egg-mongoose] starting...
+2017-09-18 19:12:58,970 INFO 35620 [egg-mongoose] mongodb://127.0.0.1:27017/food_node_database connected successfully
+2017-09-18 19:12:58,973 INFO 35620 [egg-mongoose] start successfully and server status is ok
+2017-09-18 19:12:58,978 INFO 35620 [egg-watcher:app] watcher start success
+2017-09-18 19:13:20,624 INFO 35620 [egg-view-nunjucks] loading templates from ["/Users/apple/siguang.liu/Example/food/food_node/app/view"]
+2017-09-18 20:06:40,023 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 20:14:08,396 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 21:55:29,475 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 22:13:18,012 WARN 35620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-09-18 22:13:18,012 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 22:14:39,609 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 22:38:01,212 WARN 35620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-09-18 22:38:01,212 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-18 23:16:27,497 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-19 03:19:00,919 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-19 08:43:02,233 WARN 35620 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-09-19 08:43:02,233 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-19 09:48:21,919 WARN 35620 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-19 12:29:04,699 INFO 35620 [egg-schedule]: get message egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-09-19 12:29:04,716 INFO 35620 [egg-schedule]: get message egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-09-19 12:29:04,722 INFO 35620 [egg-logrotator] clean all log before 31 days
+2017-09-19 12:29:04,722 INFO 35620 [egg-schedule] egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/clean_log.js excute succeed, used 5ms
+2017-09-19 12:29:04,723 INFO 35620 [egg-logrotator] broadcast log-reload
+2017-09-19 12:29:04,724 INFO 35620 [egg-logrotator] rotate files success by DayRotator, files ["/Users/apple/siguang.liu/Example/food/food_node/logs/food_node/common-error.log -> /Users/apple/siguang.liu/Example/food/food_node/logs/food_node/common-error.log.2017-09-18","/Users/apple/siguang.liu/Example/food/food_node/logs/food_node/food_node-web.log -> /Users/apple/siguang.liu/Example/food/food_node/logs/food_node/food_node-web.log.2017-09-18","/Users/apple/siguang.liu/Example/food/food_node/logs/food_node/egg-web.log -> /Users/apple/siguang.liu/Example/food/food_node/logs/food_node/egg-web.log.2017-09-18","/Users/apple/siguang.liu/Example/food/food_node/logs/food_node/egg-agent.log -> /Users/apple/siguang.liu/Example/food/food_node/logs/food_node/egg-agent.log.2017-09-18"]
+2017-09-19 12:29:04,724 INFO 35620 [egg-schedule] egg-schedule:/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js excute succeed, used 22ms

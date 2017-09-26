@@ -1,0 +1,553 @@
+2017-09-23 17:56:07,129 ERROR 34296 [-/127.0.0.1/-/6ms POST /web/revisePassword] nodejs.ReferenceError: paramErrors is not defined
+    at UserController.revisePassword (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/user.js:74:13)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 34296
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 17:57:17,832 ERROR 35455 [-/127.0.0.1/-/38ms POST /web/revisePassword] nodejs.ReferenceError: paramErrors is not defined
+    at UserController.revisePassword (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/user.js:74:13)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 35455
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 18:01:05,966 ERROR 35500 [-/127.0.0.1/-/31ms POST /web/revisePassword] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.revisePassword (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/user.js:82:77)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+
+pid: 35500
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 18:58:02,486 ERROR 36202 [-/127.0.0.1/-/7ms POST /web/removeUser] nodejs.Error: statusType error
+    at Application.renderBody (/Users/apple/siguang.liu/Example/food/food_node/app/extend/application.js:64:19)
+    at UserController.removeUser (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/user.js:94:33)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 36202
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 18:59:00,468 ERROR 36202 [-/127.0.0.1/-/1ms POST /web/removeUser] nodejs.Error: statusType error
+    at Application.renderBody (/Users/apple/siguang.liu/Example/food/food_node/app/extend/application.js:64:19)
+    at UserController.removeUser (/Users/apple/siguang.liu/Example/food/food_node/app/controller/user/user.js:94:33)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+
+pid: 36202
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 18:59:11,160 ERROR 36202 [-/127.0.0.1/-/12ms POST /web/removeUser] nodejs.TypeError: doc.save is not a function
+    at UserService.removeUser (/Users/apple/siguang.liu/Example/food/food_node/app/service/user/user.js:158:17)
+    at <anonymous>
+
+pid: 36202
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 19:50:53,018 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 2107346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 20:02:26,853 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 693829ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 20:25:38,007 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 1307557ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 20:38:57,012 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 799003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 20:40:42,331 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 65275ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-23 22:15:59,513 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 5177119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-24 03:40:02,163 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 19442492ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-24 08:50:41,010 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 18638843ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-25 10:04:54,583 ERROR 27076 nodejs.ClusterClientNoResponseError: client no response in 90853557ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 27076
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-25 18:32:18,828 ERROR 692 [-/127.0.0.1/-/14ms POST /web/getNewsContent] nodejs.CastError: Cast to ObjectId failed for value "123123" at path "_id" for model "News"
+    at CastError (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/error/cast.js:27:11)
+    at ObjectId.cast (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/schema/objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/schematype.js:1064:15)
+    at ObjectId.castForQuery (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/schema/objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/schematype.js:1021:15)
+    at cast (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/cast.js:269:32)
+    at model.Query.Query.cast (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/query.js:3109:12)
+    at model.Query.Query._castConditions (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/query.js:1145:10)
+    at model.Query.Query._findOne (/Users/apple/siguang.liu/Example/food/food_node/node_modules/mongoose/lib/query.js:1352:8)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/kareem/index.js:250:8
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/kareem/index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:95:7)
+    at process._tickCallback (internal/process/next_tick.js:161:9)
+message: 'Cast to ObjectId failed for value "123123" at path "_id" for model "News"'
+name: 'CastError'
+stringValue: '"123123"'
+kind: 'ObjectId'
+value: '123123'
+path: '_id'
+reason: undefined
+model: { [Function: model]
+  hooks: 
+   Kareem {
+     _pres: { findOneAndUpdate: [Array], update: [Array] },
+     _posts: {} },
+  base: 
+   Mongoose {
+     connections: [ [Object], [Object] ],
+     models: {},
+     modelSchemas: { News: [Object], Product: [Object], User: [Object] },
+     options: { pluralization: true },
+     plugins: [ [Array], [Array], [Array] ] },
+  modelName: 'News',
+  model: [Function: model],
+  db: 
+   NativeConnection {
+     base: 
+      Mongoose {
+        connections: [Array],
+        models: {},
+        modelSchemas: [Object],
+        options: [Object],
+        plugins: [Array] },
+     collections: { news: [Object], product: [Object], user: [Object] },
+     models: { News: [Circular], Product: [Object], User: [Object] },
+     config: { autoIndex: true },
+     replica: false,
+     hosts: null,
+     host: '127.0.0.1',
+     port: 27017,
+     user: undefined,
+     pass: undefined,
+     name: 'food_node_database',
+     options: 
+      { db: [Object],
+        auth: {},
+        server: [Object],
+        replset: [Object],
+        mongos: undefined },
+     otherDbs: [],
+     states: 
+      { '0': 'disconnected',
+        '1': 'connected',
+        '2': 'connecting',
+        '3': 'disconnecting',
+        '4': 'unauthorized',
+        '99': 'uninitialized',
+        disconnected: 0,
+        connected: 1,
+        connecting: 2,
+        disconnecting: 3,
+        unauthorized: 4,
+        uninitialized: 99 },
+     _readyState: 1,
+     _closeCalled: false,
+     _hasOpened: true,
+     _listening: false,
+     db: 
+      Db {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        s: [Object],
+        serverConfig: [Getter],
+        bufferMaxEntries: [Getter],
+        databaseName: [Getter],
+        _listening: true },
+     Schema: 
+      { [Function: Schema]
+        reserved: [Object],
+        interpretAsType: [Function],
+        Types: [Object],
+        ObjectId: [Object] },
+     _events: 
+      { error: [Function],
+        disconnected: [Function],
+        connected: [Function],
+        reconnected: [Function] },
+     _eventsCount: 4 },
+  discriminators: undefined,
+  '$appliedHooks': true,
+  _events: { init: [Function], save: [Function] },
+  _eventsCount: 2,
+  schema: 
+   Schema {
+     obj: { newsTitle: [Object], newsContent: [Object] },
+     paths: 
+      { newsTitle: [Object],
+        newsContent: [Object],
+        _id: [Object],
+        createdAt: [Object],
+        updatedAt: [Object],
+        __v: [Object] },
+     aliases: {},
+     subpaths: {},
+     virtuals: { id: [Object] },
+     singleNestedPaths: {},
+     nested: {},
+     inherits: {},
+     callQueue: [ [Array], [Array], [Array], [Array], [Array], [Array], [Array] ],
+     _indexes: [],
+     methods: { initializeTimestamps: [Function] },
+     statics: {},
+     tree: 
+      { newsTitle: [Object],
+        newsContent: [Object],
+        _id: [Object],
+        createdAt: [Function: Date],
+        updatedAt: [Function: Date],
+        __v: [Function: Number],
+        id: [Object] },
+     query: {},
+     childSchemas: [],
+     plugins: [ [Object], [Object], [Object], [Object] ],
+     s: { hooks: [Object], kareemHooks: [Object] },
+     options: 
+      { timestamps: true,
+        collection: 'news',
+        retainKeyOrder: false,
+        typeKey: 'type',
+        id: true,
+        noVirtualId: false,
+        _id: true,
+        noId: false,
+        validateBeforeSave: true,
+        read: null,
+        shardKey: null,
+        autoIndex: null,
+        minimize: true,
+        discriminatorKey: '__t',
+        versionKey: '__v',
+        capped: false,
+        bufferCommands: true,
+        strict: true,
+        pluralization: true },
+     '$globalPluginsApplied': true,
+     _requiredpaths: [] },
+  collection: 
+   NativeCollection {
+     collection: Collection { s: [Object] },
+     opts: { bufferCommands: true, capped: false },
+     name: 'news',
+     collectionName: 'news',
+     conn: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: '127.0.0.1',
+        port: 27017,
+        user: undefined,
+        pass: undefined,
+        name: 'food_node_database',
+        options: [Object],
+        otherDbs: [],
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        db: [Object],
+        Schema: [Object],
+        _events: [Object],
+        _eventsCount: 4 },
+     queue: [],
+     buffer: false,
+     emitter: 
+      EventEmitter {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined } },
+  Query: 
+   { [Function]
+     base: 
+      Query {
+        toConstructor: [Function: toConstructor],
+        setOptions: [Function],
+        collection: [Function: collection],
+        '$where': [Function],
+        where: [Function],
+        equals: [Function: equals],
+        eq: [Function: eq],
+        or: [Function: or],
+        nor: [Function: nor],
+        and: [Function: and],
+        gt: [Function],
+        gte: [Function],
+        lt: [Function],
+        lte: [Function],
+        ne: [Function],
+        in: [Function],
+        nin: [Function],
+        all: [Function],
+        regex: [Function],
+        size: [Function],
+        maxDistance: [Function],
+        minDistance: [Function],
+        mod: [Function],
+        exists: [Function],
+        elemMatch: [Function],
+        within: [Function: within],
+        box: [Function],
+        polygon: [Function],
+        circle: [Function],
+        near: [Function: near],
+        intersects: [Function: intersects],
+        geometry: [Function: geometry],
+        select: [Function: select],
+        slice: [Function],
+        sort: [Function],
+        limit: [Function],
+        skip: [Function],
+        maxScan: [Function],
+        batchSize: [Function],
+        comment: [Function],
+        maxTime: [Function],
+        snapshot: [Function],
+        hint: [Function],
+        slaveOk: [Function],
+        read: [Function],
+        tailable: [Function],
+        merge: [Function],
+        find: [Function],
+        cursor: [Function: cursor],
+        findOne: [Function],
+        count: [Function],
+        distinct: [Function],
+        update: [Function: update],
+        updateMany: [Function: updateMany],
+        updateOne: [Function: updateOne],
+        replaceOne: [Function: replaceOne],
+        remove: [Function],
+        deleteOne: [Function],
+        deleteMany: [Function],
+        findOneAndUpdate: [Function],
+        findOneAndRemove: [Function],
+        _findAndModify: [Function],
+        _wrapCallback: [Function],
+        setTraceFunction: [Function],
+        exec: [Function: exec],
+        thunk: [Function],
+        then: [Function],
+        stream: [Function],
+        selected: [Function: selected],
+        selectedInclusively: [Function: selectedInclusively],
+        selectedExclusively: [Function: selectedExclusively],
+        _mergeUpdate: [Function],
+        _optionsForExec: [Function],
+        _fieldsForExec: [Function],
+        _updateForExec: [Function],
+        _ensurePath: [Function],
+        _validate: [Function] } },
+  '$__insertMany': [Function],
+  insertMany: [Function],
+  [Symbol(EGG_LOADER_ITEM_FULLPATH)]: '/Users/apple/siguang.liu/Example/food/food_node/app/model/news.js',
+  [Symbol(EGG_LOADER_ITEM_EXPORTS)]: true }
+pid: 692
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-25 19:14:17,189 ERROR 10128 [-/127.0.0.1/-/54ms POST /web/postNewsAll] nodejs.TypeError: ctx.service.news.news.postNewsAll is not a function
+    at NewsController.postNewsAll (/Users/apple/siguang.liu/Example/food/food_node/app/controller/news/news.js:64:52)
+    at callController (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/loader/mixin/controller.js:117:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:65:19)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at toPromise (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:118:63)
+    at next (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:69:7)
+    at /Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:54:5
+    at Promise (<anonymous>)
+    at co (/Users/apple/siguang.liu/Example/food/food_node/node_modules/co/index.js:50:10)
+    at module.exports.callFn (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/utils/index.js:58:53)
+    at checkAuth (/Users/apple/siguang.liu/Example/food/food_node/app/middleware/check_auth.js:16:19)
+    at Object.callFn (/Users/apple/siguang.liu/Example/food/food_node/node_modules/egg-core/lib/utils/index.js:45:15)
+
+pid: 10128
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-25 19:40:35,537 ERROR 10189 nodejs.ClusterClientNoResponseError: client no response in 753501ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 10189
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-25 20:14:05,129 ERROR 10189 nodejs.ClusterClientNoResponseError: client no response in 2009588ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 10189
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-25 23:50:16,236 ERROR 10189 nodejs.ClusterClientNoResponseError: client no response in 12951094ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 10189
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-26 05:14:19,006 ERROR 10189 nodejs.ClusterClientNoResponseError: client no response in 19442766ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 10189
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-26 07:28:50,496 ERROR 10189 nodejs.ClusterClientNoResponseError: client no response in 8071483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 10189
+hostname: appledeMacBook-Pro-2.local
+
+2017-09-26 10:02:55,078 ERROR 10189 nodejs.ClusterClientNoResponseError: client no response in 9244574ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/apple/siguang.liu/Example/food/food_node/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+name: 'ClusterClientNoResponseError'
+pid: 10189
+hostname: appledeMacBook-Pro-2.local
+

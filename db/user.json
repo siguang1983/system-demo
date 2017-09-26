@@ -1,0 +1,55 @@
+{ 
+    "_id" : ObjectId("59c607fc7a9043816674b309"), 
+    "updatedAt" : ISODate("2017-09-23T07:06:36.778+0000"), 
+    "createdAt" : ISODate("2017-09-23T07:06:36.778+0000"), 
+    "username" : "huanhuan", 
+    "realName" : "欢欢", 
+    "password" : "5fe165bd1fe67bd96fea397902784779", 
+    "isAdmin" : true, 
+    "salt" : "150615039676134194", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("59c617397a9043816674b30a"), 
+    "updatedAt" : ISODate("2017-09-23T08:11:37.763+0000"), 
+    "createdAt" : ISODate("2017-09-23T08:11:37.763+0000"), 
+    "username" : "dabao", 
+    "realName" : "大宝", 
+    "password" : "ee3abbcee10484000ff4d076b0f741c1", 
+    "isAdmin" : true, 
+    "salt" : "150615429775970475", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("59ca0a15d6fbd53a99f87a0c"), 
+    "updatedAt" : ISODate("2017-09-26T08:04:37.043+0000"), 
+    "createdAt" : ISODate("2017-09-26T08:04:37.043+0000"), 
+    "username" : "duoduo", 
+    "realName" : "朵朵", 
+    "password" : "f2f33532d6cf7bf3395c20133a490766", 
+    "isAdmin" : true, 
+    "salt" : "150641307704197327", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("59ca0a26d6fbd53a99f87a0d"), 
+    "updatedAt" : ISODate("2017-09-26T08:04:54.356+0000"), 
+    "createdAt" : ISODate("2017-09-26T08:04:54.356+0000"), 
+    "username" : "daya", 
+    "realName" : "大雅", 
+    "password" : "acca50ea13a22cacc10f53d14aa213f5", 
+    "isAdmin" : true, 
+    "salt" : "150641309435525370", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("59ca0a45d6fbd53a99f87a0e"), 
+    "updatedAt" : ISODate("2017-09-26T08:05:25.123+0000"), 
+    "createdAt" : ISODate("2017-09-26T08:05:25.123+0000"), 
+    "username" : "maolv", 
+    "realName" : "毛驴", 
+    "password" : "7419d2ed6fd9f1bd33909f5cda2e173c", 
+    "isAdmin" : false, 
+    "salt" : "150641312512249368", 
+    "__v" : NumberInt(0)
+}
